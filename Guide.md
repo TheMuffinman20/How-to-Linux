@@ -67,7 +67,7 @@ Controleer nog een laatste keer of je de correcte USB-stick geselecteerd hebt vo
 
 Wacht tot de tool klaar is met schrijven van het bestand, daarna kun je hem veilig verwijderen van de computer. Goed gedaan, je hebt nu een zogeheten "Live USB" aangemaakt!
 
-> Extra: als je de USB weer wilt gebruiken om data op te slaan na de volledige dual-boot, kun je hem in de computer inpluggen en via Windows Verkenner formatteren naar FAT32 of exFAT. Dit zal opnieuw alle data wissen die werd geschreven door het hulpprogramma, en de USB weer klaarmaken voor dataopslag.
+> Extra: als je de USB weer wilt gebruiken om data op te slaan na de volledige dual-boot, kun je hem in de computer inpluggen en via Windows Verkenner formatteren door op de usb rechts te klikken en formatteren te kiezen naar FAT32 of exFAT. Dit zal opnieuw alle data wissen die werd geschreven door het hulpprogramma, en de USB weer klaarmaken voor dataopslag.
 
 # Schijfruimte vrijmaken
 
@@ -76,11 +76,11 @@ Wacht tot de tool klaar is met schrijven van het bestand, daarna kun je hem veil
 Wanneer je Linux naast Windows wilt installeren, moet je eerst vrije ruimte voorzien op je harde schijf of SSD. Dat doen we door de bestaande Windows-partitie te verkleinen zodat er plaats ontstaat voor Linux. Windows blijft gewoon werken op zijn eigen partitie, terwijl Linux later geïnstalleerd wordt in de vrijgemaakte ruimte.
 
 - Zoek in het Start-menu naar Schijfbeheer (Create and format hard disk partitions)
-- Klik met de rechtermuisknop op de hoofdpartitie (meestal de C:-schijf)
+- Klik bovenaan met de rechtermuisknop op de hoofdpartitie (meestal de C:-schijf)
 - Kies Volume verkleinen (Shrink Volume)
 - Geef aan hoeveel ruimte je wilt afstaan aan Linux
   - Minimaal 50 GB
-  - 100 GB is aangeraden
+  - 100+ GB is aangeraden
 - Klik op Verkleinen (Shrink)
 
 Als alles goed is, verschijnt nu een blok Niet-toegewezen ruimte (Unallocated space). Je hoeft hier geen nieuwe partitie van te maken — Linux zal dit tijdens de installatie zelf correct indelen. Je mag Schijfbeheer nu sluiten.
@@ -100,11 +100,11 @@ Bij single-boot maakt dit niet uit, maar bij dual-boot is de volgorde belangrijk
 
 # Opstartomgeving
 
-Je hebt nu een Live USB met daarop de Linux-ISO, én een stuk niet-toegewezen ruimte op je schijf waar Linux straks geïnstalleerd kan worden. Voor we kunnen opstarten vanaf de USB, moeten we nog twee belangrijke zaken controleren: BitLocker en de bootvolgorde.
+Je hebt nu een Live USB met daarop de Linux-ISO, én een stuk niet-toegewezen ruimte op je schijf waar Linux straks geïnstalleerd kan worden. Voor we kunnen opstarten vanaf de USB, moeten we nog drie belangrijke zaken controleren: BitLocker, Secure Boot en de bootvolgorde.
 
 ## BitLocker
 
-BitLocker is een beveiligingsfunctie van Windows die je systeempartitie kan versleutelen. Wanneer BitLocker merkt dat er iets verandert aan de opstartomgeving (zoals het gebruik van een andere schijf, een gewijzigde bootvolgorde of het opstarten via USB), kan Windows vragen om een herstelcode. Dit is een beveiligingsmaatregel om te voorkomen dat iemand jouw Windows-schijf uitleest via een ander besturingssysteem zoals Linux.
+BitLocker is een beveiligingsfunctie van Windows die je systeempartitie kan versleutelen. Als BitLocker merkt dat er iets verandert aan de opstartomgeving (zoals het gebruik van een andere schijf, een gewijzigde bootvolgorde of het opstarten via USB), kan Windows vragen om een herstelcode. Dit is een beveiligingsmaatregel om te voorkomen dat iemand jouw Windows-schijf uitleest via een ander besturingssysteem zoals Linux.
 
 Schakel BitLocker uit met volgende stappen:
 
@@ -122,14 +122,14 @@ Geen paniek. Als BitLocker geactiveerd wordt tijdens het opstarten, zal Windows 
 - Zoek de herstelcode die overeenkomt met jouw apparaat
 - Voer de code in op de computer
 
-Daarna kun je verdergaan met de installatie.
+Daarna kan je bitlocker deactiveren en verdergaan met de installatie.
 
 ## Opstarten vanaf de Live USB
 
 De USB-stick is klaar. Je moet de computer nu laten opstarten vanaf die stick. De precieze stappen verschillen per computer. BIOS/UEFI is het instellingenmenu van de computer; UEFI is de moderne opvolger van BIOS.
 
 1. Laat de USB-stick aangesloten en start de computer opnieuw op.
-2. Open tijdens het opstarten het opstartmenu of de BIOS/UEFI-instellingen. De juiste toets verschilt per fabrikant; vaak is dit F2, F12, F11, F8, Esc of Del. Meestal verschijnt er kort een melding op het scherm welke toets je moet indrukken. Raadpleeg zo nodig de handleiding van je computer.
+2. Open tijdens het opstarten het opstartmenu of de BIOS/UEFI-instellingen. De juiste toets verschilt per fabrikant van je moederbord; vaak is dit F2, F12, F11, F8, Esc of Del. Meestal verschijnt er kort een melding op het scherm welke toets je moet indrukken. Raadpleeg zo nodig de handleiding van je computer.
 3. Kies in het opstartmenu de USB-stick. Kies bij voorkeur de vermelding die met `UEFI` begint, als die beschikbaar is.
 
 Als de USB-stick niet in het opstartmenu staat, open dan de BIOS/UEFI-instellingen en controleer of de USB-opstartoptie is ingeschakeld. De namen en locaties van instellingen verschillen per fabrikant. Je kunt de USB eventueel tijdelijk bovenaan de opstartvolgorde zetten. Sla wijzigingen op met **Save & Exit** en start de computer opnieuw op.
@@ -138,15 +138,14 @@ Secure Boot hoeft niet voor elke Linux-distributie uitgeschakeld te worden. Scha
 
 ### De Live-omgeving starten
 
-Kies in het opstartmenu van Linux **Try or Install Linux** (of de vergelijkbare optie voor jouw distributie). De Live-omgeving start Linux tijdelijk vanaf de USB-stick, zonder het meteen op je schijf te installeren. Zo kun je controleren of bijvoorbeeld je toetsenbord, scherm en netwerk werken.
+Meestal start de installer automatisch op in de liveomgeving van je linux distributie, als dit niet zo is kies dan in het opstartmenu van Linux **Try or Install Linux** (of de vergelijkbare optie voor jouw distributie). De Live-omgeving start Linux tijdelijk vanaf de USB-stick, zonder het meteen op je schijf te installeren. Zo kun je controleren of bijvoorbeeld je toetsenbord, scherm en netwerk werken.
 
-Wanneer je klaar bent om Linux te installeren, open je **Install Linux** vanaf het bureaublad of vanuit het installatiemenu. De precieze naam en weergave kunnen per distributie verschillen.
+Wanneer je klaar bent om Linux te installeren, open je **Install Linux** of **Launch Installer** vanaf het bureaublad of vanuit het installatiemenu. De precieze naam en weergave kunnen per distributie verschillen.
 
-> **Tip:** LTS staat voor _Long Term Support_ en betekent dat een versie langere tijd updates krijgt. Het betekent niet dat Linux alleen een terminal heeft. Wil je bewust zonder grafische desktop werken, kies dan een server- of minimale installatie als jouw distributie die aanbiedt.
-
+> **Tip:** LTS staat voor _Long Term Support_ en betekent dat een versie langere tijd updates krijgt.
 ## Installatieproces en partities
 
-Volg de aanwijzingen van de installer. Meestal kies je eerst de taal en toetsenbordindeling en maak je verbinding met Wi-Fi. Sommige installers vragen ook welke desktopomgeving je wilt gebruiken; kies dan de omgeving van je voorkeur.
+Volg de aanwijzingen van de installer. Meestal kies je eerst de taal, de bootloader (grub, limine,...) en toetsenbordindeling en maak je verbinding met Wi-Fi. Sommige installers vragen ook welke desktopomgeving je wilt gebruiken; kies dan de omgeving van je voorkeur.
 
 Bij de keuze voor de schijf- of partitie-indeling kies je de optie die past bij jouw situatie.
 
@@ -160,7 +159,7 @@ Kies **Schijf wissen en Linux installeren** (of **Erase disk and install Linux**
 
 Als de installer Windows herkent, kies dan **Installeer Linux naast Windows** (of **Install Linux alongside Windows**). Controleer vóór je verdergaat welke schijf en partities worden gebruikt.
 
-Als die optie niet beschikbaar is, kun je mogelijk **Iets anders** (of **Something else**) kiezen om de partities handmatig in te delen. Doe dit alleen als je weet welke partities je moet gebruiken: een verkeerde keuze kan Windows of je bestanden verwijderen. Raadpleeg bij twijfel de installatiehandleiding van je distributie voordat je wijzigingen bevestigt.
+Als die optie niet beschikbaar is, kun je mogelijk **Iets anders** of **Manueel Instellen** (**Something else** of **Manual Partitioning**) kiezen om de partities handmatig in te delen. Doe dit alleen als je weet welke partities je moet gebruiken: een verkeerde keuze kan Windows of je bestanden verwijderen. Raadpleeg bij twijfel de installatiehandleiding van je distributie voordat je wijzigingen bevestigt.
 
 Controleer je keuzes zorgvuldig en bevestig daarna de installatie.
 
@@ -170,9 +169,7 @@ Controleer je keuzes zorgvuldig en bevestig daarna de installatie.
 2. Maak een gebruikersaccount aan. Vul je naam, computernaam en gebruikersnaam in en stel een sterk wachtwoord in.
 3. Wacht tot de installatie is voltooid. De duur verschilt per computer en distributie.
 4. Kies **Nu herstarten** (of de vergelijkbare optie) wanneer de installer daarom vraagt.
-5. Verwijder de USB-stick wanneer daarom wordt gevraagd en druk op Enter als dat nodig is.
-
-Als de computer na het herstarten opnieuw vanaf de USB-stick opstart, verwijder de stick dan en herstart de computer. Je kunt ook in het opstartmenu de interne schijf kiezen.
+5. Verwijder de USB-stick wanneer het scherm zwart is en voor de computer opnieuw opstart anders gaat hij opnieuw opstarten in de live omgeving.
 
 ## Conclusie
 
