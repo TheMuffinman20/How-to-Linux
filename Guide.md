@@ -124,46 +124,56 @@ Geen paniek. Als BitLocker geactiveerd wordt tijdens het opstarten, zal Windows 
 
 Daarna kun je verdergaan met de installatie.
 
-## Secure Boot
+## Opstarten vanaf de Live USB
 
-Secure Boot is een beveiligingsfunctie die ervoor zorgt dat alleen vertrouwde software tijdens het opstarten mag worden geladen. Sommige Linux-installaties werken het beste met Secure Boot ingeschakeld, maar afhankelijk van de distro kan het ook nodig zijn om deze functie tijdelijk uit te schakelen.
+De USB-stick is klaar. Je moet de computer nu laten opstarten vanaf die stick. De precieze stappen verschillen per computer. BIOS/UEFI is het instellingenmenu van de computer; UEFI is de moderne opvolger van BIOS.
 
-Controleer daarom in de BIOS/UEFI-instellingen of Secure Boot wel of niet ondersteund en/of uitgeschakeld moet worden voor je installatie.
+1. Laat de USB-stick aangesloten en start de computer opnieuw op.
+2. Open tijdens het opstarten het opstartmenu of de BIOS/UEFI-instellingen. De juiste toets verschilt per fabrikant; vaak is dit F2, F12, F11, F8, Esc of Del. Meestal verschijnt er kort een melding op het scherm welke toets je moet indrukken. Raadpleeg zo nodig de handleiding van je computer.
+3. Kies in het opstartmenu de USB-stick. Kies bij voorkeur de vermelding die met `UEFI` begint, als die beschikbaar is.
 
-# Opstarten vanaf de Live USB
+Als de USB-stick niet in het opstartmenu staat, open dan de BIOS/UEFI-instellingen en controleer of de USB-opstartoptie is ingeschakeld. De namen en locaties van instellingen verschillen per fabrikant. Je kunt de USB eventueel tijdelijk bovenaan de opstartvolgorde zetten. Sla wijzigingen op met **Save & Exit** en start de computer opnieuw op.
 
-1. Laat de USB-stick in de computer zitten en herstart het systeem.
-2. Tijdens het opstarten druk je herhaaldelijk op de bootmenu-toets (meestal F12, F11, F8 of Del, afhankelijk van je moederbord of merk laptop).
-3. Kies de USB-stick uit de lijst met opstartapparaten.
-4. Je komt nu terecht in het Linux-startmenu. Kies de optie "Try or Install Linux".
-5. Je wordt nu opgestart in een tijdelijke Linux-omgeving. Hier kun je het systeem eerst testen. Ben je er klaar voor? Dubbelklik dan op het icoon "Install Linux" op het bureaublad.
+Secure Boot hoeft niet voor elke Linux-distributie uitgeschakeld te worden. Schakel het alleen uit als de documentatie van je gekozen distributie dat aangeeft of als het opstarten anders niet lukt. Noteer je oorspronkelijke instellingen, zodat je ze later eventueel kunt herstellen.
 
-## Het installatieproces en partities kiezen
+### De Live-omgeving starten
 
-Doorloop de eerste schermen: kies je taal, toetsenbordindeling en verbind eventueel met Wi-Fi.
+Kies in het opstartmenu van Linux **Try or Install Linux** (of de vergelijkbare optie voor jouw distributie). De Live-omgeving start Linux tijdelijk vanaf de USB-stick, zonder het meteen op je schijf te installeren. Zo kun je controleren of bijvoorbeeld je toetsenbord, scherm en netwerk werken.
 
-Bij het scherm Installatietype kies je het type installatie dat je wilt uitvoeren:
+Wanneer je klaar bent om Linux te installeren, open je **Install Linux** vanaf het bureaublad of vanuit het installatiemenu. De precieze naam en weergave kunnen per distributie verschillen.
 
-## Optie A: Single Boot (Volledige overstap)
+> **Tip:** LTS staat voor _Long Term Support_ en betekent dat een versie langere tijd updates krijgt. Het betekent niet dat Linux alleen een terminal heeft. Wil je bewust zonder grafische desktop werken, kies dan een server- of minimale installatie als jouw distributie die aanbiedt.
 
-- Selecteer "Schijf wissen en Linux installeren" (Erase disk and install Linux)
-- Let op: dit verwijdert alle bestaande gegevens, inclusief Windows of oude bestanden
-- Klik op "Nu installeren"
+## Installatieproces en partities
 
-## Optie B: Dual Boot (Linux naast Windows)
+Volg de aanwijzingen van de installer. Meestal kies je eerst de taal en toetsenbordindeling en maak je verbinding met Wi-Fi. Sommige installers vragen ook welke desktopomgeving je wilt gebruiken; kies dan de omgeving van je voorkeur.
 
-- Kies de optie "Installeer Linux naast Windows" (Install Linux alongside Windows). De installer herkent Windows automatisch en gebruikt de niet-toegewezen ruimte die je eerder hebt aangemaakt.
-- Alternatief: kies "Iets anders" (Something else) als je handmatig partities wilt aanmaken, zoals een gescheiden /boot, / (root) en /home-partitie.
-- Controleer de geselecteerde schijf zorgvuldig en klik op "Nu installeren".
+Bij de keuze voor de schijf- of partitie-indeling kies je de optie die past bij jouw situatie.
 
-# Afronding en eerste start
+### Optie A: Single boot (Linux als enige besturingssysteem)
 
-1. Vul je locatie/tijdzone in.
-2. Maak een gebruikersaccount aan met je naam, computernaam, gebruikersnaam en een sterk wachtwoord.
-3. Wacht tot de installatie is voltooid (dit duurt meestal 5 tot 15 minuten).
-4. Wanneer de melding verschijnt dat de installatie klaar is, klik je op "Nu herstarten".
-5. Verwijder de USB-stick wanneer het scherm hierom vraagt en druk op Enter.
+Kies **Schijf wissen en Linux installeren** (of **Erase disk and install Linux**) als je Linux als enige besturingssysteem op de gekozen schijf wilt gebruiken.
+
+> **Let op:** deze optie verwijdert alle gegevens op de geselecteerde schijf, waaronder Windows en persoonlijke bestanden. Controleer zorgvuldig welke schijf is geselecteerd en zorg vooraf voor een back-up.
+
+### Optie B: Dual boot (Linux naast Windows)
+
+Als de installer Windows herkent, kies dan **Installeer Linux naast Windows** (of **Install Linux alongside Windows**). Controleer vóór je verdergaat welke schijf en partities worden gebruikt.
+
+Als die optie niet beschikbaar is, kun je mogelijk **Iets anders** (of **Something else**) kiezen om de partities handmatig in te delen. Doe dit alleen als je weet welke partities je moet gebruiken: een verkeerde keuze kan Windows of je bestanden verwijderen. Raadpleeg bij twijfel de installatiehandleiding van je distributie voordat je wijzigingen bevestigt.
+
+Controleer je keuzes zorgvuldig en bevestig daarna de installatie.
+
+## Afronding en eerste start
+
+1. Selecteer je locatie of tijdzone.
+2. Maak een gebruikersaccount aan. Vul je naam, computernaam en gebruikersnaam in en stel een sterk wachtwoord in.
+3. Wacht tot de installatie is voltooid. De duur verschilt per computer en distributie.
+4. Kies **Nu herstarten** (of de vergelijkbare optie) wanneer de installer daarom vraagt.
+5. Verwijder de USB-stick wanneer daarom wordt gevraagd en druk op Enter als dat nodig is.
+
+Als de computer na het herstarten opnieuw vanaf de USB-stick opstart, verwijder de stick dan en herstart de computer. Je kunt ook in het opstartmenu de interne schijf kiezen.
 
 ## Conclusie
 
-Je computer start nu op in je nieuwe Linux-omgeving. Als je voor een dual-boot hebt gekozen, krijg je bij het opstarten een keuzemenu (GRUB) waarin je kunt kiezen of je Linux of Windows wilt opstarten.
+Linux is nu geïnstalleerd. Bij een dual-boot toont de computer doorgaans een opstartmenu waarin je Linux of Windows kunt kiezen. Als dat menu niet verschijnt, open dan het opstartmenu van je computer en selecteer het besturingssysteem dat je wilt starten.
