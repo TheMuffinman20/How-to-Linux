@@ -17,12 +17,14 @@ In deze workshop installeren we Linux naast je huidige besturingssysteem. Dit he
 
 ## Stap 1: Download de ISO
 
-Het leukste deel van deze workshop is kiezen welke distro je graag zou willen gebruiken. Als je nogal besluiteloos bent en niet goed weet waarvoor elke distro dient of hoe ze eruit zien, kun je best de andere workshop "How to pick my distro" herbekijken. Wanneer je besloten hebt welke distro je graag zou willen gebruiken of testen, zul je deze moeten downloaden als ISO-bestand.
+Het leukste deel van deze workshop is kiezen welke distro je graag zou willen gebruiken. Wanneer je besloten hebt welke je zou willen gebruiken of testen, zul je deze moeten downloaden als ISO-bestand.
 
 Volg daarvoor onderstaande stappen:
 
 1. Ga naar de officiële webpagina: https://cachyos.org/download/
 2. Download de juiste ISO voor je processortype (Intel/AMD64)
+
+> Tip: Als je nogal besluiteloos bent en niet goed weet waarvoor elke distro dient of hoe ze eruit zien, kun je best de andere workshop "How to pick my distro" herbekijken.
 
 ## Stap 2: Download het hulpprogramma
 
@@ -75,15 +77,15 @@ Wacht tot de tool klaar is met schrijven van het bestand, daarna kun je hem veil
 
 Wanneer je Linux naast Windows wilt installeren, moet je eerst vrije ruimte voorzien op je harde schijf of SSD. Dat doen we door de bestaande Windows-partitie te verkleinen zodat er plaats ontstaat voor Linux. Windows blijft gewoon werken op zijn eigen partitie, terwijl Linux later geïnstalleerd wordt in de vrijgemaakte ruimte.
 
-1. Zoek in het Start-menu naar Schijfbeheer (Create and format hard disk partitions)
+1. Zoek in het Start-menu naar **Schijfbeheer** (**Create and format hard disk partitions**)
 2. Klik bovenaan met de rechtermuisknop op de hoofdpartitie (meestal de C:-schijf)
-3. Kies Volume verkleinen (Shrink Volume)
+3. Kies **Volume verkleinen** (**Shrink Volume**)
 4. Geef aan hoeveel ruimte je wilt afstaan aan Linux
   - Minimaal 50 GB
   - 100+ GB is aangeraden
-5. Klik op Verkleinen (Shrink)
+5. Klik op **Verkleinen** (**Shrink**)
 
-Als alles goed is, verschijnt nu een blok Niet-toegewezen ruimte (Unallocated space). Je hoeft hier geen nieuwe partitie van te maken — Linux zal dit tijdens de installatie zelf correct indelen. Je mag Schijfbeheer nu sluiten.
+Als alles goed is, verschijnt nu een blok **Niet-toegewezen ruimte** (**Unallocated space**). Je hoeft hier geen nieuwe partitie van te maken — Linux zal dit tijdens de installatie zelf correct indelen. Je mag Schijfbeheer nu sluiten.
 
 ## Single boot
 
@@ -108,8 +110,8 @@ BitLocker is een beveiligingsfunctie van Windows die je systeempartitie kan vers
 
 Schakel BitLocker uit met volgende stappen:
 
-- Zoek in het Start-menu naar Apparaatversleuteling (Device Encryption)
-- Schakel dit uit
+1. Zoek in het Start-menu naar **Apparaatversleuteling** (**Device Encryption**)
+2. Schakel dit uit
 
 Het uitschakelen van BitLocker kan enige tijd duren, afhankelijk van de grootte van je schijf, maar je kunt het apparaat in de tussentijd wel blijven gebruiken.
 
@@ -126,11 +128,11 @@ Daarna kan je bitlocker deactiveren en verdergaan met de installatie.
 
 ## Opstarten vanaf de Live USB
 
-De USB-stick is klaar. Je moet de computer nu laten opstarten vanaf die stick. De precieze stappen verschillen per computer. BIOS/UEFI is het instellingenmenu van de computer; UEFI is de moderne opvolger van BIOS.
+De USB-stick is klaar. Je moet de computer nu laten opstarten vanaf die stick. De precieze stappen verschillen per computer. **BIOS/UEFI** is het instellingenmenu van de computer; **UEFI** is de moderne opvolger van **BIOS**.
 
 1. Laat de USB-stick aangesloten en start de computer opnieuw op.
-2. Open tijdens het opstarten het opstartmenu of de BIOS/UEFI-instellingen. De juiste toets verschilt per fabrikant van je moederbord; vaak is dit F2, F12, F11, F8, Esc of Del. Meestal verschijnt er kort een melding op het scherm welke toets je moet indrukken. Raadpleeg zo nodig de handleiding van je computer.
-3. Kies in het opstartmenu de USB-stick. Kies bij voorkeur de vermelding die met `UEFI` begint, als die beschikbaar is.
+2. Open tijdens het opstarten het opstartmenu of de **BIOS/UEFI**-instellingen. De juiste toets verschilt per fabrikant van je moederbord; vaak is dit **F2, F12, F11, F8, Esc of Del**. Meestal verschijnt er kort een melding op het scherm welke toets je moet indrukken. Raadpleeg zo nodig de handleiding van je computer.
+3. Kies in het opstartmenu de USB-stick. Kies bij voorkeur de vermelding die met **UEFI** begint, als die beschikbaar is.
 
 Als de USB-stick niet in het opstartmenu staat, open dan de BIOS/UEFI-instellingen en controleer of de USB-opstartoptie is ingeschakeld. De namen en locaties van instellingen verschillen per fabrikant. Je kunt de USB eventueel tijdelijk bovenaan de opstartvolgorde zetten. Sla wijzigingen op met **Save & Exit** en start de computer opnieuw op.
 
@@ -138,37 +140,36 @@ Secure Boot hoeft niet voor elke Linux-distributie uitgeschakeld te worden. Scha
 
 ## Installatie
 
-Meestal start de installer automatisch op in de liveomgeving van je linux distributie, als dit niet zo is kies dan in het opstartmenu van Linux **Try or Install Linux** (of de vergelijkbare optie voor jouw distributie). De Live-omgeving start Linux tijdelijk vanaf de USB-stick, zonder het meteen op je schijf te installeren. Zo kun je controleren of bijvoorbeeld je toetsenbord, scherm en netwerk werken.
+Meestal start de installer automatisch op in de liveomgeving van je linux distributie, als dit niet zo is kies je het opstartmenu van Linux **Try or Install Linux** (of de vergelijkbare optie voor jouw distributie). De Live-omgeving start Linux tijdelijk vanaf de USB-stick, zonder het meteen op je schijf te installeren. Zo kun je controleren of bijvoorbeeld je toetsenbord, scherm en netwerk werken.
 
 Wanneer je klaar bent om Linux te installeren, open je **Install Linux** of **Launch Installer** vanaf het bureaublad of vanuit het installatiemenu. De precieze naam en weergave kunnen per distributie verschillen.
 
 > Tip: LTS staat voor _Long Term Support_ en betekent dat een versie langere tijd updates krijgt. Deze versies van het OS zijn ideaal voo servers.
 
-### Desktopomgeving
+Volg de aanwijzingen van de installer:
 
-Volg de aanwijzingen van de installer. Meestal kies je eerst de taal, de regio en tijdzone en toetsenbordindeling en maak je verbinding met de WiFi. Sommige installers vragen welke desktopomgeving je wilt gebruiken. Ben je wat onzeker over deze keuze? Volg dan de guide over "How to pick my desktop".
+1. Maak verbinding met het internet via WiFi of Ethernet
+2. Kies de geprefereerde taal voor jouw systeem
+3. Kies de regio en tijdzone
+4. Kies de correcte toetsenbordindeling
 
-In deze guide zullen we opteren voor Hyprland, een op Wayland-gebaseerde windowmanager die een flexibele omgeving en hogere snelheid als basisprincipes heeft.
+## Bootloader
 
-> Extra: om Hyprland volledig functioneel te krijgen met de shell die we zullen gebruiken, kies je best voor "No desktop environment". Na de initiële installatie zal je computer opstarten met enkel een TTY, waarmee we handmatig aan de slag zullen gaan.
+De bootloader is het programma dat opstart nog voor het besturingssysteem om je de keuze te geven met welk OS je de computer wilt besturen. Er zijn doorgaans veel verschillende bootloaders, met elk een andere look. In deze workshop zullen we kiezen voor **Limine**, een moderne bootloader die even eenvoudig is als GRUB en beter kan werken met Windows en Arch-distributies op hetzelfde systeem.
 
-### Partities
+> Extra: Ben je wat onzeker over deze keuze? Volg dan de guide over "How to pick my bootloader".
+
+## Partities
 
 Bij de keuze voor de schijf- of partitie-indeling zijn er meerdere opties, afhakelijk van jouw gebruiksdoeleinden kunnen we hier de correcte keuze maken. Kies een optie hieronder om verder te gaan voor jouw OS.
 
-### Optie A: Single boot (Linux als enige besturingssysteem)
-
-Kies Schijf wissen en Linux installeren (of **Erase disk and install Linux**) als je Linux als enige besturingssysteem op de gekozen schijf wilt gebruiken.
-
-> Let op: deze optie verwijdert alle gegevens op de geselecteerde schijf, waaronder Windows en persoonlijke bestanden. Controleer zorgvuldig welke schijf is geselecteerd en zorg vooraf voor een back-up.
-
-### Optie B: Dual boot (Linux naast Windows)
+### Optie A: Dual boot (Linux naast Windows)
 
 Als de installer Windows herkent, kies dan **Installeer Linux naast Windows** (**Install Linux alongside Windows**).
 
 Als die optie niet beschikbaar is, kun je mogelijk **Iets anders** of **Manueel Instellen** (**Something else** of **Manual Partitioning**) kiezen om de partities handmatig in te delen. Doe dit alleen als je weet welke partities je moet gebruiken: een verkeerde keuze kan Windows of je bestanden verwijderen. Raadpleeg bij twijfel de installatiehandleiding van je distributie voordat je wijzigingen bevestigt.
 
-### Eerste partitie
+#### Eerste partitie
 De eerste partitie is voorbehouden voor de bootloader is is essentieel voor elk besturingssysteem dat een dual-boot wilt gebruiken. Hierin zal het programma komen dat mee opstart wanneer de computer wordt aangezet, om vervolgens de keuze van OS door te geven.
 
 1. Selecteer de **Unallocated space** die je in Windows aanmaakte. Controleer of de grootte overeenkomt met de grootte die jij aan je Linux-besturingssysteem wou geven.
@@ -178,7 +179,7 @@ De eerste partitie is voorbehouden voor de bootloader is is essentieel voor elk 
 5. Geef als mountpoint **/boot** in
 6. Kies als vlag **boot**
 
-### Tweede partitie
+#### Tweede partitie
 
 1. Selecteer opniew de **Unallocated space**. De vorige grootte zou nu verkleint moeten zijn met 4GB.
 2. Klik op Create
@@ -188,14 +189,52 @@ De eerste partitie is voorbehouden voor de bootloader is is essentieel voor elk 
 
 Controleer je keuzes zorgvuldig en bevestig daarna de installatie.
 
+### Optie B: Single boot (Linux als enige besturingssysteem)
+
+Kies Schijf wissen en Linux installeren (of **Erase disk and install Linux**) als je Linux als enige besturingssysteem op de gekozen schijf wilt gebruiken.
+
+> Let op: Deze optie verwijdert alle gegevens op de geselecteerde schijf, waaronder Windows en persoonlijke bestanden. Controleer zorgvuldig welke schijf is geselecteerd en zorg vooraf voor een back-up.
+
+## Desktopomgeving
+
+Sommige installers vragen welke desktopomgeving je wilt gebruiken. In deze guide zullen we opteren voor Hyprland, een op Wayland-gebaseerde windowmanager die een flexibele omgeving en hogere snelheid als basisprincipes heeft.
+
+> Extra: om Hyprland volledig functioneel te krijgen met de shell die we zullen gebruiken, kies je best voor "No desktop environment". Na de initiële installatie zal je computer opstarten met enkel een TTY, waarmee we handmatig aan de slag zullen gaan.
+
+> Tip: Ben je wat onzeker over deze keuze? Volg dan de guide over "How to pick my desktop". 
+
+## Pakketten
+
+Je krijgt ook een meerkeuzemenu dat handige pakketten bevat om te installeren nog voor de setup is voltooid. Enkele pakketten die je kunt overwegen:
+
+- HP Printer Support
+- General Printer Support
+- Accessability tools
+
+## Gebruikers
+
+Als laatste zal de installer vragen welke gebruiker het systeem zal beheren. Hiervoor zijn een aantal data nodig, die je hieronder kunt volgen:
+
+1. Geef je (volledige) naam in
+2. Geef je gebruikersnaam in
+3. Geef de naam van de computer in
+4. Geef het wachtwoord voor de gebruiker in
+
+> Tip: Als je hetzelfde wachtwoord voor root wilt gebruiken, vink je de optie **Use the same password for root** aan.
+
 ## Afronding en eerste start
 
-1. Selecteer je locatie of tijdzone.
-2. Maak een gebruikersaccount aan. Vul je naam, computernaam en gebruikersnaam in en stel een sterk wachtwoord in.
-3. Wacht tot de installatie is voltooid. De duur verschilt per computer en distributie.
-4. Kies **Nu herstarten** (of de vergelijkbare optie) wanneer de installer daarom vraagt.
-5. Verwijder de USB-stick wanneer het scherm zwart is en voor de computer opnieuw opstart anders gaat hij opnieuw opstarten in de live omgeving.
+Nu we alle opties correct hebben aangeduid kunnen we de installatie starten. Wacht tot deze is voltooid, verbreek de internetverbinding niet en zet de computer niet uit.
+
+De duur van de installatie verschilt per computer en distributie. Kies daarna **Nu herstarten** (of de vergelijkbare optie) wanneer de installer daarom vraagt. Verwijder de USB-stick wanneer het scherm zwart is en voor de computer opnieuw opstart, anders zal hij opnieuw in de USB booten.
 
 ## Conclusie
 
 Linux is nu geïnstalleerd. Bij een dual-boot toont de computer doorgaans een opstartmenu waarin je Linux of Windows kunt kiezen. Als dat menu niet verschijnt, open dan het opstartmenu van je computer en selecteer het besturingssysteem dat je wilt starten.
+
+
+## FAQ
+
+...
+
+> Extra: Bij andere vragen kun je langskomen bij het IT-Lab waar studenten en lectoren klaarstaan om jou zo snel en zo goed mogelijk te helpen met problemen. Kom gerust eens langs!
