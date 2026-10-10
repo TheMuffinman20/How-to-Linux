@@ -21,8 +21,8 @@ Het leukste deel van deze workshop is kiezen welke distro je graag zou willen ge
 
 Volg daarvoor onderstaande stappen:
 
-- Ga naar de officiële webpagina: https://ubuntu.com/download/desktop
-- Download de juiste ISO voor je processortype (Intel/AMD64)
+1. Ga naar de officiële webpagina: https://cachyos.org/download/
+2. Download de juiste ISO voor je processortype (Intel/AMD64)
 
 ## Stap 2: Download het hulpprogramma
 
@@ -34,36 +34,36 @@ Hieronder overlopen we drie veelgebruikte tools, elk met hun eigen sterktes en d
 
 BalenaEtcher is beschikbaar voor Windows, macOS en Linux, wat het een populaire keuze maakt. Het programma blinkt uit in eenvoud: je selecteert de ISO, kiest je USB-stick en Balena doet de rest. De keerzijde van die eenvoud is dat er weinig geavanceerde instellingen beschikbaar zijn, waardoor je als gebruiker minder controle hebt over het flashproces.
 
-- Ga naar de officiële website: https://etcher.balena.io/
-- Download de meest recente versie
+1. Ga naar de officiële website: https://etcher.balena.io/
+2. Download de meest recente versie
 
 ### Rufus
 
 Rufus is het hulpprogramma dat we in deze workshop zullen gebruiken. Het is een uitstekende allrounder: snel, betrouwbaar en voorzien van extra opties die handig zijn bij het installeren van Linux in een dual-bootomgeving. Hoewel Rufus alleen beschikbaar is voor Windows, blijft het een van de meest gebruikte tools. De interface is eenvoudig, maar biedt toch voldoende instellingen voor wie meer controle wil.
 
-- Ga naar de officiële website: https://rufus.ie/nl/#download
-- Download de nieuwste versie voor jouw processortype (Intel/AMD64)
+1. Ga naar de officiële website: https://rufus.ie/nl/#download
+2. Download de nieuwste versie voor jouw processortype (Intel/AMD64)
 
 ### Ventoy
 
 Ventoy is het meest geavanceerde programma in deze lijst. In plaats van telkens een USB-stick opnieuw te moeten flashen, maakt Ventoy een speciale omgeving waarin je simpelweg ISO-bestanden kunt kopiëren. Het programma geeft de gebruiker veel vrijheid, maar verwacht ook dat je goed weet wat je doet. Daarom is Ventoy vooral geschikt voor ervaren gebruikers die meerdere systemen willen beheren of testen.
 
-- Ga naar de officiële website: https://www.ventoy.net/en/download.html
-- Download de nieuwste versie voor jouw processortype (Intel/AMD64)
+1. Ga naar de officiële website: https://www.ventoy.net/en/download.html
+2. Download de nieuwste versie voor jouw processortype (Intel/AMD64)
 
 ## Stap 3: USB flashen
 
 Plaats eerst de USB-stick die je wilt gebruiken in je computer. Controleer dat er geen belangrijke bestanden op staan, want tijdens het flashen wordt de volledige inhoud definitief verwijderd. Open daarna het gekozen hulpprogramma (in deze workshop: Rufus) en volg de stappen hieronder zorgvuldig:
 
-- Selecteer de USB om te flashen onder Apparaat
-- Selecteer de ISO door op SELECTEREN te klikken
-- Negeer de grootte van persistente partitie, doelsysteem en volumelabel
-- Selecteer als bestandssysteem GPT
-- Negeer clustergrootte
+1. Selecteer de USB om te flashen onder Apparaat
+2. Selecteer de ISO door op SELECTEREN te klikken
+3. Negeer de grootte van persistente partitie, doelsysteem en volumelabel
+4. Selecteer als bestandssysteem GPT
+5. Negeer clustergrootte
 
 Controleer nog een laatste keer of je de correcte USB-stick geselecteerd hebt voordat je de flash initialiseert. Zorg er ook voor dat alle instellingen geselecteerd zijn zoals hierboven aangegeven.
 
-- Klik op STARTEN
+6. Klik op STARTEN
 
 Wacht tot de tool klaar is met schrijven van het bestand, daarna kun je hem veilig verwijderen van de computer. Goed gedaan, je hebt nu een zogeheten "Live USB" aangemaakt!
 
@@ -75,13 +75,13 @@ Wacht tot de tool klaar is met schrijven van het bestand, daarna kun je hem veil
 
 Wanneer je Linux naast Windows wilt installeren, moet je eerst vrije ruimte voorzien op je harde schijf of SSD. Dat doen we door de bestaande Windows-partitie te verkleinen zodat er plaats ontstaat voor Linux. Windows blijft gewoon werken op zijn eigen partitie, terwijl Linux later geïnstalleerd wordt in de vrijgemaakte ruimte.
 
-- Zoek in het Start-menu naar Schijfbeheer (Create and format hard disk partitions)
-- Klik bovenaan met de rechtermuisknop op de hoofdpartitie (meestal de C:-schijf)
-- Kies Volume verkleinen (Shrink Volume)
-- Geef aan hoeveel ruimte je wilt afstaan aan Linux
+1. Zoek in het Start-menu naar Schijfbeheer (Create and format hard disk partitions)
+2. Klik bovenaan met de rechtermuisknop op de hoofdpartitie (meestal de C:-schijf)
+3. Kies Volume verkleinen (Shrink Volume)
+4. Geef aan hoeveel ruimte je wilt afstaan aan Linux
   - Minimaal 50 GB
   - 100+ GB is aangeraden
-- Klik op Verkleinen (Shrink)
+5. Klik op Verkleinen (Shrink)
 
 Als alles goed is, verschijnt nu een blok Niet-toegewezen ruimte (Unallocated space). Je hoeft hier geen nieuwe partitie van te maken — Linux zal dit tijdens de installatie zelf correct indelen. Je mag Schijfbeheer nu sluiten.
 
@@ -113,14 +113,14 @@ Schakel BitLocker uit met volgende stappen:
 
 Het uitschakelen van BitLocker kan enige tijd duren, afhankelijk van de grootte van je schijf, maar je kunt het apparaat in de tussentijd wel blijven gebruiken.
 
-Ben je BitLocker vergeten uit te schakelen?
+### Ben je BitLocker vergeten uit te schakelen?
 
-Geen paniek. Als BitLocker geactiveerd wordt tijdens het opstarten, zal Windows vragen om een herstelcode. Deze kun je terugvinden via:
+Geen paniek. Als BitLocker geactiveerd wordt tijdens het opstarten, zal Windows vragen om een herstelcode. Deze kun je zo terugvinden:
 
-- https://account.microsoft.com/devices/recoverykey
-- Log in met hetzelfde Microsoft-account dat je op de computer gebruikt
-- Zoek de herstelcode die overeenkomt met jouw apparaat
-- Voer de code in op de computer
+1. Ga naar https://account.microsoft.com/devices/recoverykey
+2. Log in met hetzelfde Microsoft-account dat je op de computer gebruikt
+3. Zoek de herstelcode die overeenkomt met jouw apparaat
+4. Voer de code in op de computer
 
 Daarna kan je bitlocker deactiveren en verdergaan met de installatie.
 
@@ -136,30 +136,55 @@ Als de USB-stick niet in het opstartmenu staat, open dan de BIOS/UEFI-instelling
 
 Secure Boot hoeft niet voor elke Linux-distributie uitgeschakeld te worden. Schakel het alleen uit als de documentatie van je gekozen distributie dat aangeeft of als het opstarten anders niet lukt. Noteer je oorspronkelijke instellingen, zodat je ze later eventueel kunt herstellen.
 
-### De Live-omgeving starten
+## Installatie
 
 Meestal start de installer automatisch op in de liveomgeving van je linux distributie, als dit niet zo is kies dan in het opstartmenu van Linux **Try or Install Linux** (of de vergelijkbare optie voor jouw distributie). De Live-omgeving start Linux tijdelijk vanaf de USB-stick, zonder het meteen op je schijf te installeren. Zo kun je controleren of bijvoorbeeld je toetsenbord, scherm en netwerk werken.
 
 Wanneer je klaar bent om Linux te installeren, open je **Install Linux** of **Launch Installer** vanaf het bureaublad of vanuit het installatiemenu. De precieze naam en weergave kunnen per distributie verschillen.
 
-> **Tip:** LTS staat voor _Long Term Support_ en betekent dat een versie langere tijd updates krijgt.
-## Installatieproces en partities
+> Tip: LTS staat voor _Long Term Support_ en betekent dat een versie langere tijd updates krijgt. Deze versies van het OS zijn ideaal voo servers.
 
-Volg de aanwijzingen van de installer. Meestal kies je eerst de taal, de bootloader (grub, limine,...) en toetsenbordindeling en maak je verbinding met Wi-Fi. Sommige installers vragen ook welke desktopomgeving je wilt gebruiken; kies dan de omgeving van je voorkeur.
+### Desktopomgeving
 
-Bij de keuze voor de schijf- of partitie-indeling kies je de optie die past bij jouw situatie.
+Volg de aanwijzingen van de installer. Meestal kies je eerst de taal, de regio en tijdzone en toetsenbordindeling en maak je verbinding met de WiFi. Sommige installers vragen welke desktopomgeving je wilt gebruiken. Ben je wat onzeker over deze keuze? Volg dan de guide over "How to pick my desktop".
+
+In deze guide zullen we opteren voor Hyprland, een op Wayland-gebaseerde windowmanager die een flexibele omgeving en hogere snelheid als basisprincipes heeft.
+
+> Extra: om Hyprland volledig functioneel te krijgen met de shell die we zullen gebruiken, kies je best voor "No desktop environment". Na de initiële installatie zal je computer opstarten met enkel een TTY, waarmee we handmatig aan de slag zullen gaan.
+
+### Partities
+
+Bij de keuze voor de schijf- of partitie-indeling zijn er meerdere opties, afhakelijk van jouw gebruiksdoeleinden kunnen we hier de correcte keuze maken. Kies een optie hieronder om verder te gaan voor jouw OS.
 
 ### Optie A: Single boot (Linux als enige besturingssysteem)
 
-Kies **Schijf wissen en Linux installeren** (of **Erase disk and install Linux**) als je Linux als enige besturingssysteem op de gekozen schijf wilt gebruiken.
+Kies Schijf wissen en Linux installeren (of **Erase disk and install Linux**) als je Linux als enige besturingssysteem op de gekozen schijf wilt gebruiken.
 
-> **Let op:** deze optie verwijdert alle gegevens op de geselecteerde schijf, waaronder Windows en persoonlijke bestanden. Controleer zorgvuldig welke schijf is geselecteerd en zorg vooraf voor een back-up.
+> Let op: deze optie verwijdert alle gegevens op de geselecteerde schijf, waaronder Windows en persoonlijke bestanden. Controleer zorgvuldig welke schijf is geselecteerd en zorg vooraf voor een back-up.
 
 ### Optie B: Dual boot (Linux naast Windows)
 
-Als de installer Windows herkent, kies dan **Installeer Linux naast Windows** (of **Install Linux alongside Windows**). Controleer vóór je verdergaat welke schijf en partities worden gebruikt.
+Als de installer Windows herkent, kies dan **Installeer Linux naast Windows** (**Install Linux alongside Windows**).
 
 Als die optie niet beschikbaar is, kun je mogelijk **Iets anders** of **Manueel Instellen** (**Something else** of **Manual Partitioning**) kiezen om de partities handmatig in te delen. Doe dit alleen als je weet welke partities je moet gebruiken: een verkeerde keuze kan Windows of je bestanden verwijderen. Raadpleeg bij twijfel de installatiehandleiding van je distributie voordat je wijzigingen bevestigt.
+
+### Eerste partitie
+De eerste partitie is voorbehouden voor de bootloader is is essentieel voor elk besturingssysteem dat een dual-boot wilt gebruiken. Hierin zal het programma komen dat mee opstart wanneer de computer wordt aangezet, om vervolgens de keuze van OS door te geven.
+
+1. Selecteer de **Unallocated space** die je in Windows aanmaakte. Controleer of de grootte overeenkomt met de grootte die jij aan je Linux-besturingssysteem wou geven.
+2. Klik op Create
+3. Geef als grootte **4096MB** in
+4. Kies als bestandssysteem **FAT32**
+5. Geef als mountpoint **/boot** in
+6. Kies als vlag **boot**
+
+### Tweede partitie
+
+1. Selecteer opniew de **Unallocated space**. De vorige grootte zou nu verkleint moeten zijn met 4GB.
+2. Klik op Create
+3. Kies als bestandssysteem **NTFS** of **BTFS**
+4. Mount deze partitie door **/** in te geven
+5. Kies geen vlag
 
 Controleer je keuzes zorgvuldig en bevestig daarna de installatie.
 
