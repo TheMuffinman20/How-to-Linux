@@ -20,3 +20,25 @@ Nieuwe versies van het OS mogen oude applicaties niet (vaak) breken.
 Het OS moet op verschillende hardware kunnen draaien.
 
 - Hoe gemakkelijk kan ik (data) wisselen tussen OS?
+
+## Distributies
+
+### Windows-gebruikers en beginners
+
+Linux Mint, Zorin OS
+
+### Stabiliteit en servers
+
+Debian, Ubuntu, Fedora
+
+### Gaming
+
+Bazzite, Nobara, POP!_OS
+
+### Prestaties en customisation
+
+Arch Linux, CachyOS, NixOS
+
+### Design en pracht
+
+Deepin, Elementary OS
