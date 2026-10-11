@@ -21,7 +21,7 @@ Het leukste deel van deze workshop is kiezen welke distro je graag zou willen ge
 
 Volg daarvoor onderstaande stappen:
 
-1. Ga naar de officiële webpagina: https://cachyos.org/download/
+1. Ga naar de officiële webpagina: vb. https://cachyos.org/download/
 2. Download de juiste ISO voor je processortype (Intel/AMD64)
 
 > Tip: Als je nogal besluiteloos bent en niet goed weet waarvoor elke distro dient of hoe ze eruit zien, kun je best de andere workshop "How to pick my distro" herbekijken.
