@@ -1,8 +1,6 @@
 # Introductie
 
-Welkom allemaal! Ik ben Thibo Daelman, student in het tweede jaar Toegepaste Informatica, en vandaag begeleid ik jullie door een workshop waarin we Linux installeren op onze computer. Tijdens deze sessie volgen we een vast stappenplan, aangevuld met uitleg zodat je precies begrijpt wat we doen en waarom Linux zo'n krachtig en veelzijdig besturingssysteem is.
-
-In deze workshop installeren we Linux naast je huidige besturingssysteem. Dit heet een dual-boot. Het algemene stappenplan blijft hetzelfde, maar tijdens de installatie voeren we enkele specifieke aanpassingen uit om beide systemen veilig naast elkaar te laten bestaan.
+In deze workshop volgen we een vast stappenplan, aangevuld met uitleg zodat je precies begrijpt wat we doen en waarom Linux zo'n krachtig en veelzijdig besturingssysteem is. We installeren Linux naast het huidige besturingssysteem, dit heet een dual-boot. Het algemene stappenplan blijft hetzelfde, maar tijdens de installatie voeren we enkele specifieke aanpassingen uit om beide systemen veilig naast elkaar te laten bestaan.
 
 ## Benodigdheden
 
