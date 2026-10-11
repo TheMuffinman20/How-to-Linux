@@ -4,7 +4,7 @@ Deze guide helpt je bij het kiezen van een geschikte bootloader voor jouw Linux-
 
 De beste keuze hangt vooral af van je firmware, het aantal besturingssystemen en hoeveel je zelf wilt aanpassen. Controleer eerst of je computer in **UEFI-modus** of in de oudere **BIOS/Legacy-modus** opstart. Voor moderne computers en een dual-boot met Windows gebruik je bij voorkeur UEFI.
 
-## 1. Consistentie
+### 1. Consistentie
 
 De bootloader moet betrouwbaar blijven en zonder verrassingen het juiste besturingssysteem starten.
 
@@ -12,7 +12,7 @@ De bootloader moet betrouwbaar blijven en zonder verrassingen het juiste besturi
 - Kan hij Windows automatisch herkennen?
 - Blijft het opstartmenu werken na een kernel- of systeemupdate?
 
-## 2. Flexibiliteit
+### 2. Flexibiliteit
 
 Een bootloader kan eenvoudig zijn, maar ook veel opties bieden voor thema's, herstelopties en meerdere kernels.
 
@@ -20,7 +20,7 @@ Een bootloader kan eenvoudig zijn, maar ook veel opties bieden voor thema's, her
 - Wil je zelf opstartopties en thema's kunnen instellen?
 - Heb je ondersteuning nodig voor meerdere Linux-kernels?
 
-## 3. Overdraagbaarheid
+### 3. Overdraagbaarheid
 
 De bootloader moet passen bij de firmware en de schijfindeling van je computer.
 
@@ -28,25 +28,47 @@ De bootloader moet passen bij de firmware en de schijfindeling van je computer.
 - **BIOS/Legacy** gebruikt een andere opstartmethode en is minder geschikt voor een nieuwe dual-bootinstallatie.
 - Installeer Linux en de bootloader in dezelfde modus. Start de Linux-USB dus ook op via de optie die met **UEFI** begint.
 
-## Bootloaders
+## Windows en Linux
 
-### Windows en Linux
+### Limine, (GRUB)
 
-Limine, GRUB
+Limine is een moderne bootloader met ondersteuning voor UEFI en BIOS/Legacy.
 
-### Alleen Linux
+- Duidelijk en modern opstartmenu
+- Geschikt voor Linux en Windows in een dual-boot
+- Veel mogelijkheden zonder dat de basisconfiguratie ingewikkeld is
+- Minder standaard aanwezig in distributies dan GRUB
 
-systemd-boot, Limine
+In deze workshop kiezen we voor **Limine**, omdat hij een moderne en flexibele keuze is voor een systeem met Linux en eventueel Windows.
 
-### Meerdere besturingssystemen
+## Alleen Linux
 
-GRUB, Limine, rEFInd
+### systemd-boot
 
-### Oudere computers
+systemd-boot is een lichte bootloader voor moderne UEFI-systemen.
 
-GRUB
+- Eenvoudig en snel
+- Past goed bij een installatie met alleen Linux
+- Weinig configuratie nodig
+- Niet bedoeld voor BIOS/Legacy
+- Minder geschikt wanneer je veel verschillende systemen automatisch wilt beheren
 
-## Bootloaders uitgelegd
+Kies systemd-boot als je een moderne UEFI-computer hebt en een eenvoudige Linux-installatie wilt. Limine
+
+## Meerdere besturingssystemen
+
+### rEFInd (Limine, GRUB)
+
+rEFInd toont de beschikbare besturingssystemen als duidelijke opstartopties.
+
+- Handig wanneer je meerdere besturingssystemen gebruikt
+- Visueel overzichtelijk menu
+- Vooral gericht op UEFI
+- Kan extra configuratie nodig hebben bij bijzondere installaties
+
+Kies rEFInd als je meerdere UEFI-besturingssystemen naast elkaar gebruikt en een visueel menu belangrijk vindt.
+
+## Oudere computers
 
 ### GRUB
 
@@ -59,43 +81,9 @@ GRUB is de meest gebruikte en breedst ondersteunde keuze.
 
 Kies GRUB als je vooral compatibiliteit en uitgebreide ondersteuning belangrijk vindt.
 
-### systemd-boot
+# Welke bootloader past bij mij?
 
-systemd-boot is een lichte bootloader voor moderne UEFI-systemen.
-
-- Eenvoudig en snel
-- Past goed bij een installatie met alleen Linux
-- Weinig configuratie nodig
-- Niet bedoeld voor BIOS/Legacy
-- Minder geschikt wanneer je veel verschillende systemen automatisch wilt beheren
-
-Kies systemd-boot als je een moderne UEFI-computer hebt en een eenvoudige Linux-installatie wilt.
-
-### Limine
-
-Limine is een moderne bootloader met ondersteuning voor UEFI en BIOS/Legacy.
-
-- Duidelijk en modern opstartmenu
-- Geschikt voor Linux en Windows in een dual-boot
-- Veel mogelijkheden zonder dat de basisconfiguratie ingewikkeld is
-- Minder standaard aanwezig in distributies dan GRUB
-
-In deze workshop kiezen we voor **Limine**, omdat hij een moderne en flexibele keuze is voor een systeem met Linux en eventueel Windows.
-
-### rEFInd
-
-rEFInd toont de beschikbare besturingssystemen als duidelijke opstartopties.
-
-- Handig wanneer je meerdere besturingssystemen gebruikt
-- Visueel overzichtelijk menu
-- Vooral gericht op UEFI
-- Kan extra configuratie nodig hebben bij bijzondere installaties
-
-Kies rEFInd als je meerdere UEFI-besturingssystemen naast elkaar gebruikt en een visueel menu belangrijk vindt.
-
-## Welke bootloader past bij mij?
-
-### Windows en Linux (dual-boot)
+## Windows en Linux (dual-boot)
 
 Kies **Limine** of **GRUB**.
 
@@ -103,15 +91,15 @@ Kies **Limine** of **GRUB**.
 - Kies GRUB als je maximale compatibiliteit en documentatie wilt.
 - Installeer Windows bij voorkeur eerst en Linux daarna. Windows kan anders de bootloader overschrijven.
 
-### Alleen Linux (single-boot)
+## Alleen Linux (single-boot)
 
 Kies **systemd-boot** voor een eenvoudige UEFI-installatie, of **Limine** wanneer je meer configuratiemogelijkheden wilt. GRUB blijft een veilige keuze als je distributie die standaard aanbiedt.
 
-### Meerdere Linux-installaties
+## Meerdere Linux-installaties
 
 Kies **GRUB**, **Limine** of **rEFInd**. Deze keuzes maken het eenvoudiger om meerdere systemen of kernels in één opstartmenu te beheren.
 
-## Aanbevolen keuze
+### Aanbevolen keuze
 
 Voor deze workshop:
 

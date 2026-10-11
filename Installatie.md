@@ -24,7 +24,7 @@ Volg daarvoor onderstaande stappen:
 1. Ga naar de officiële webpagina: vb. https://cachyos.org/download/
 2. Download de juiste ISO voor je processortype (Intel/AMD64)
 
-> Tip: Als je nogal besluiteloos bent en niet goed weet waarvoor elke distro dient of hoe ze eruit zien, kun je best de andere workshop "How to pick my distro" herbekijken.
+> Tip: Als je nogal besluiteloos bent en niet goed weet waarvoor elke distro dient of hoe ze eruit zien, kun je best de andere workshop "Distributies".
 
 ## Stap 2: Download het hulpprogramma
 
@@ -157,7 +157,7 @@ Volg de aanwijzingen van de installer:
 
 De bootloader is het programma dat opstart nog voor het besturingssysteem om je de keuze te geven met welk OS je de computer wilt besturen. Er zijn doorgaans veel verschillende bootloaders, met elk een andere look. In deze workshop zullen we kiezen voor **Limine**, een moderne bootloader die even eenvoudig is als GRUB en beter kan werken met Windows en Arch-distributies op hetzelfde systeem.
 
-> Extra: Ben je wat onzeker over deze keuze? Volg dan de guide over "How to pick my bootloader".
+> Extra: Ben je wat onzeker over deze keuze? Volg dan de workshop "Bootloaders".
 
 ## Partities
 
@@ -201,7 +201,7 @@ Sommige installers vragen welke desktopomgeving je wilt gebruiken. In deze guide
 
 > Extra: om Hyprland volledig functioneel te krijgen met de shell die we zullen gebruiken, kies je best voor "No desktop environment". Na de initiële installatie zal je computer opstarten met enkel een TTY, waarmee we handmatig aan de slag zullen gaan.
 
-> Tip: Ben je wat onzeker over deze keuze? Volg dan de guide over "How to pick my desktop". 
+> Tip: Ben je wat onzeker over deze keuze? Volg dan de guide "Desktops". 
 
 ## Pakketten
 
