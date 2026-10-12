@@ -10,7 +10,7 @@ De desktop moet voorspelbaar en betrouwbaar blijven.
 
 - Werken de instellingen en sneltoetsen zoals verwacht?
 - Zijn de onderdelen goed geïntegreerd?
-- Krijg je regelmatig updates zonder dat de hele werkomgeving verandert?
+- Krijg je regelmatig updates zonder dat de hele werkomgeving verandert of breekt?
 
 ## 2. Flexibiliteit
 
@@ -26,7 +26,7 @@ Een zware desktop gebruikt meer geheugen en grafische middelen dan een lichte de
 
 - Voor een moderne computer zijn GNOME en KDE Plasma meestal geschikt.
 - Voor oudere hardware zijn Xfce, LXQt en MATE vaak betere keuzes.
-- Een windowmanager kan licht en snel zijn, maar vraagt meestal meer handmatige configuratie.
+- Een tiling windowmanager kan licht en snel zijn, maar vraagt meestal meer handmatige configuratie.
 
 ## Desktop Omgevingen
 
@@ -48,7 +48,7 @@ KDE Plasma, Hyprland
 
 ### Toetsenbordgerichte workflow
 
-Hyprland
+Hyprland, Sway, Dwm
 
 ## Desktopomgevingen uitgelegd
 
@@ -109,7 +109,7 @@ Kies LXQt als je computer weinig geheugen of beperkte grafische prestaties heeft
 
 ### Hyprland
 
-Hyprland is een dynamische windowmanager voor Wayland. Vensters worden automatisch naast elkaar geplaatst en de workflow is sterk op sneltoetsen gericht.
+Hyprland is een dynamische windowmanager voor Wayland. Vensters worden automatisch geranschikt en de workflow is sterk op sneltoetsen gericht.
 
 - **Niet geschikt voor nieuwe gebruikers**
 - Flexibele indeling en uitgebreide configuratie
@@ -120,6 +120,32 @@ Hyprland is een dynamische windowmanager voor Wayland. Vensters worden automatis
 
 Kies Hyprland als je controle, snelheid en maatwerk belangrijk vindt en bereid bent zelf je werkomgeving op te bouwen.
 
+### Sway
+
+Sway is een minimalistische dynamische windowmanager en compositor voor Wayland. De configuratie en sneltoetsen zijn grotendeels compatibel met i3, waardoor bestaande i3-configuraties vaak als uitgangspunt kunnen dienen.
+
+- **Niet geschikt voor beginners**
+- Licht, stabiel en efficiënt
+- Vertrouwde i3-achtige workflow met sneltoetsen
+- Minder visuele effecten en standaardfuncties dan Hyprland
+- Geen volledige desktopomgeving; panelen, notificaties en andere onderdelen moeten vaak apart worden ingesteld
+- Geschikt voor gebruikers die een eenvoudige Wayland-workflow willen
+
+Kies Sway als je een lichte en stabiele Wayland-windowmanager wilt met een i3-achtige configuratie en workflow.
+
+### Dwm
+
+Dwm is een minimalistische en dynamische windowmanager voor X11. Vensters worden automatisch gerangschikt en de bediening is voornamelijk op sneltoetsen gericht.
+
+- **niet geschikt voor beginners**
+- Zeer licht en snel
+- Eenvoudige basis zonder overbodige functies
+- Configuratie gebeurt meestal door de broncode aan te passen en dwm opnieuw te compileren
+- Geschikt voor gebruikers die hun workflow volledig zelf willen bepalen
+- Panelen, launchers, notificaties en andere onderdelen moeten vaak apart worden geïnstalleerd
+
+Kies dwm als je een uiterst lichte, toetsenbordgerichte windowmanager wilt en het geen probleem vindt om technische configuratie zelf te beheren.
+
 ## Welke desktop past bij mij?
 
 ### Windows-gebruikers en beginners
@@ -127,14 +153,14 @@ Kies Hyprland als je controle, snelheid en maatwerk belangrijk vindt en bereid b
 Kies **Cinnamon** of **KDE Plasma**.
 
 - Cinnamon heeft een eenvoudige en vertrouwde indeling.
-- KDE Plasma biedt meer functies en aanpassingsmogelijkheden.
+- KDE Plasma biedt meer functies en aanpassingsmogelijkheden aan.
 
 ### Stabiliteit
 
 Kies **GNOME** of **Xfce**.
 
 - GNOME is geschikt voor een moderne en geïntegreerde workflow.
-- Xfce is geschikt als je een lichte en klassieke desktop wilt.
+- Xfce is geschikt als je een lichte en klassieke desktopomgeving wilt.
 
 ### Oudere of beperkte hardware
 

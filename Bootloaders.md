@@ -30,7 +30,7 @@ De bootloader moet passen bij de firmware en de schijfindeling van je computer.
 
 ## Windows en Linux
 
-### Limine, (GRUB)
+### Limine
 
 Limine is een moderne bootloader met ondersteuning voor UEFI en BIOS/Legacy.
 
@@ -57,7 +57,7 @@ Kies systemd-boot als je een moderne UEFI-computer hebt en een eenvoudige Linux-
 
 ## Meerdere besturingssystemen
 
-### rEFInd (Limine, GRUB)
+### rEFInd
 
 rEFInd toont de beschikbare besturingssystemen als duidelijke opstartopties.
 
@@ -89,11 +89,11 @@ Kies **Limine** of **GRUB**.
 
 - Kies Limine als je een modern en overzichtelijk menu wilt.
 - Kies GRUB als je maximale compatibiliteit en documentatie wilt.
-- Installeer Windows bij voorkeur eerst en Linux daarna. Windows kan anders de bootloader overschrijven.
+- Installeer Windows eerst, dan Linux. Windows gaat anders de bootloader overschrijven.
 
 ## Alleen Linux (single-boot)
 
-Kies **systemd-boot** voor een eenvoudige UEFI-installatie, of **Limine** wanneer je meer configuratiemogelijkheden wilt. GRUB blijft een veilige keuze als je distributie die standaard aanbiedt.
+Kies **systemd-boot** voor een eenvoudige UEFI-installatie, of **Limine** wanneer je meer configuratiemogelijkheden wilt. GRUB blijft een veilige keuze als je distributie het aanbiedt.
 
 ## Meerdere Linux-installaties
 

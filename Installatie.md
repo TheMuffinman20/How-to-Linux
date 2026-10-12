@@ -22,7 +22,7 @@ Volg daarvoor onderstaande stappen:
 1. Ga naar de officiële webpagina: vb. https://cachyos.org/download/
 2. Download de juiste ISO voor je processortype (Intel/AMD64)
 
-> Tip: Als je nogal besluiteloos bent en niet goed weet waarvoor elke distro dient of hoe ze eruit zien, kun je best de andere workshop "Distributies".
+> Tip: Als je nogal besluiteloos bent en niet goed weet waarvoor elke distro dient of hoe ze eruit zien, kun je best de andere workshop "Distributies" eens bekijken.
 
 ## Stap 2: Download het hulpprogramma
 
@@ -57,7 +57,7 @@ Plaats eerst de USB-stick die je wilt gebruiken in je computer. Controleer dat e
 
 1. Selecteer de USB om te flashen onder Apparaat
 2. Selecteer de ISO door op SELECTEREN te klikken
-3. Negeer de grootte van persistente partitie, doelsysteem en volumelabel
+3. Negeer de grootte van de persistente partitie, het doelsysteem en het volumelabel
 4. Selecteer als bestandssysteem GPT
 5. Negeer clustergrootte
 
@@ -91,7 +91,7 @@ Als je ervoor kiest om enkel Linux te installeren, hoef je geen ruimte vrij te m
 
 > Let op: dit verwijdert alle Windows-data permanent.
 
-Wil je later Windows opnieuw installeren, dan moet je weten dat Windows de neiging heeft om de bootloader te overschrijven. Daarom installeer je in de praktijk meestal:
+Wil je later Windows opnieuw installeren, dan moet je weten dat Windows de neiging heeft om de bootloader te overschrijven. Daarom installeer je in de praktijk:
 
 1. Eerst Windows
 2. Daarna Linux
@@ -155,7 +155,7 @@ Volg de aanwijzingen van de installer:
 
 De bootloader is het programma dat opstart nog voor het besturingssysteem om je de keuze te geven met welk OS je de computer wilt besturen. Er zijn doorgaans veel verschillende bootloaders, met elk een andere look. In deze workshop zullen we kiezen voor **Limine**, een moderne bootloader die even eenvoudig is als GRUB en beter kan werken met Windows en Arch-distributies op hetzelfde systeem.
 
-> Extra: Ben je wat onzeker over deze keuze? Volg dan de workshop "Bootloaders".
+> Extra: Ben je wat onzeker over deze keuze? Bekijk dan de workshop "Bootloaders".
 
 ## Partities
 
@@ -165,9 +165,10 @@ Bij de keuze voor de schijf- of partitie-indeling zijn er meerdere opties, afhak
 
 Als de installer Windows herkent, kies dan **Installeer Linux naast Windows** (**Install Linux alongside Windows**).
 
-Als die optie niet beschikbaar is, kun je mogelijk **Iets anders** of **Manueel Instellen** (**Something else** of **Manual Partitioning**) kiezen om de partities handmatig in te delen. Doe dit alleen als je weet welke partities je moet gebruiken: een verkeerde keuze kan Windows of je bestanden verwijderen. Raadpleeg bij twijfel de installatiehandleiding van je distributie voordat je wijzigingen bevestigt.
+Als die optie niet beschikbaar is of de installer geeft een error, kun je mogelijk **Iets anders** of **Manueel Instellen** (**Something else** of **Manual Partitioning**) kiezen om de partities handmatig in te delen. Doe dit alleen als je weet welke partities je moet gebruiken: een verkeerde keuze kan Windows of je bestanden verwijderen. Raadpleeg bij twijfel de installatiehandleiding van je distributie voordat je wijzigingen bevestigt.
+## Manuele Partitionering
 
-#### Eerste partitie
+#### Eerste partitie (EFI)
 De eerste partitie is voorbehouden voor de bootloader is is essentieel voor elk besturingssysteem dat een dual-boot wilt gebruiken. Hierin zal het programma komen dat mee opstart wanneer de computer wordt aangezet, om vervolgens de keuze van OS door te geven.
 
 1. Selecteer de **Unallocated space** die je in Windows aanmaakte. Controleer of de grootte overeenkomt met de grootte die jij aan je Linux-besturingssysteem wou geven.
@@ -181,7 +182,7 @@ De eerste partitie is voorbehouden voor de bootloader is is essentieel voor elk 
 
 1. Selecteer opniew de **Unallocated space**. De vorige grootte zou nu verkleint moeten zijn met 4GB.
 2. Klik op Create
-3. Kies als bestandssysteem **NTFS** of **BTFS**
+3. Verander het bestandsysteem niet
 4. Mount deze partitie door **/** in te geven
 5. Kies geen vlag
 
@@ -195,10 +196,9 @@ Kies Schijf wissen en Linux installeren (of **Erase disk and install Linux**) al
 
 ## Desktopomgeving
 
-Sommige installers vragen welke desktopomgeving je wilt gebruiken. In deze guide zullen we opteren voor Hyprland, een op Wayland-gebaseerde windowmanager die een flexibele omgeving en hogere snelheid als basisprincipes heeft.
+Sommige installers vragen welke desktopomgeving je wilt gebruiken. In deze guide zullen we opteren voor Kde plasma, een op Wayland-gebaseerde windowmanager die een flexibele omgeving en hogere snelheid als basisprincipes heeft.
 
-> Extra: om Hyprland volledig functioneel te krijgen met de shell die we zullen gebruiken, kies je best voor "No desktop environment". Na de initiële installatie zal je computer opstarten met enkel een TTY, waarmee we handmatig aan de slag zullen gaan.
-
+> Extra: Kde plasma heeft ook een x11 versie maar deze laten we even achterwege
 > Tip: Ben je wat onzeker over deze keuze? Volg dan de guide "Desktops". 
 
 ## Pakketten
@@ -207,7 +207,7 @@ Je krijgt ook een meerkeuzemenu dat handige pakketten bevat om te installeren no
 
 - HP Printer Support
 - General Printer Support
-- Accessability tools
+- Accessability tools (screenreader, mouse tweaks)
 
 ## Gebruikers
 
@@ -224,7 +224,7 @@ Als laatste zal de installer vragen welke gebruiker het systeem zal beheren. Hie
 
 Nu we alle opties correct hebben aangeduid kunnen we de installatie starten. Wacht tot deze is voltooid, verbreek de internetverbinding niet en zet de computer niet uit.
 
-De duur van de installatie verschilt per computer en distributie. Kies daarna **Nu herstarten** (of de vergelijkbare optie) wanneer de installer daarom vraagt. Verwijder de USB-stick wanneer het scherm zwart is en voor de computer opnieuw opstart, anders zal hij opnieuw in de USB booten.
+De duur van de installatie verschilt per computer en distributie. Kies **Nu herstarten** (of de vergelijkbare optie) als de installer er om vraagt. Verwijder de USB-stick als het scherm zwart is en voor de computer opnieuw opstart, anders zal hij opnieuw in de USB booten.
 
 ## Conclusie
 
