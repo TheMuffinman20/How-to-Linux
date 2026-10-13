@@ -54,6 +54,9 @@ Hyprland, Sway, Dwm
 
 ### GNOME
 
+<img src="images/Gnome_logo.png" alt="Gnome" width="100">
+
+
 GNOME heeft een eenvoudige en rustige interface met een sterke focus op overzicht en workflow.
 
 - Moderne Wayland-ondersteuning
@@ -64,6 +67,8 @@ GNOME heeft een eenvoudige en rustige interface met een sterke focus op overzich
 Kies GNOME als je een moderne omgeving wilt die vooral eenvoudig en overzichtelijk werkt.
 
 ### KDE Plasma
+
+<img src="images/Kde_logo.png" alt="Kde Plasma" width="100">
 
 KDE Plasma biedt een traditionele desktop met veel mogelijkheden om het uiterlijk en gedrag aan te passen.
 
@@ -76,6 +81,8 @@ Kies KDE Plasma als je een complete desktop wilt die je uitgebreid kunt aanpasse
 
 ### Xfce
 
+<img src="images/Xfce_logo.png" alt="Xfce" width="100">
+
 Xfce is een lichte en klassieke desktopomgeving.
 
 - Laag geheugengebruik
@@ -86,6 +93,8 @@ Xfce is een lichte en klassieke desktopomgeving.
 Kies Xfce als prestaties en stabiliteit belangrijker zijn dan een moderne standaardinterface.
 
 ### Cinnamon
+
+<img src="images/Cinnamon_logo.png" alt="Cinnamon" width="100">
 
 Cinnamon gebruikt een vertrouwde indeling met een menu, taakbalk en systeemvak.
 
@@ -98,6 +107,8 @@ Kies Cinnamon als je zonder grote veranderingen van Windows naar Linux wilt over
 
 ### LXQt
 
+<img src="images/LXQt_logo.png" alt="LXQt" width="100">
+
 LXQt is ontworpen om zo weinig mogelijk systeembronnen te gebruiken.
 
 - Zeer licht
@@ -108,6 +119,8 @@ LXQt is ontworpen om zo weinig mogelijk systeembronnen te gebruiken.
 Kies LXQt als je computer weinig geheugen of beperkte grafische prestaties heeft.
 
 ### Hyprland
+
+<img src="images/Hyprland_logo.png" alt="Hyprland" width="100">
 
 Hyprland is een dynamische windowmanager voor Wayland. Vensters worden automatisch geranschikt en de workflow is sterk op sneltoetsen gericht.
 
@@ -122,6 +135,8 @@ Kies Hyprland als je controle, snelheid en maatwerk belangrijk vindt en bereid b
 
 ### Sway
 
+<img src="images/Sway_logo.png" alt="Sway" width="100">
+
 Sway is een minimalistische dynamische windowmanager en compositor voor Wayland. De configuratie en sneltoetsen zijn grotendeels compatibel met i3, waardoor bestaande i3-configuraties vaak als uitgangspunt kunnen dienen.
 
 - **Niet geschikt voor beginners**
@@ -134,6 +149,8 @@ Sway is een minimalistische dynamische windowmanager en compositor voor Wayland.
 Kies Sway als je een lichte en stabiele Wayland-windowmanager wilt met een i3-achtige configuratie en workflow.
 
 ### Dwm
+
+<img src="images/Dwm_logo.png" alt="Dwm" width="100">
 
 Dwm is een minimalistische en dynamische windowmanager voor X11. Vensters worden automatisch gerangschikt en de bediening is voornamelijk op sneltoetsen gericht.
 
