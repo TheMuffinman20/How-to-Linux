@@ -1,4 +1,4 @@
-# Introductie
+# Hoe kies ik mijn distributie?
 
 Deze guide zal je helpen bij het kiezen van een geschikte distro voor jouw computer. Het aanbod is immens, en studenten worden vaak overweldigd door het aantal distributies die er zijn. 
 
