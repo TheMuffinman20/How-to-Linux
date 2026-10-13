@@ -32,6 +32,8 @@ Hoewel de échte Linux-gebruikers toch liever hun skills tonen met moeilijkere d
 
 ### Linux Mint
 
+<img src="images/Linux_Mint_logo.png" alt="Linux Mint" width="100">
+
 Linux Mint is een gebruiksvriendelijke, stabiele distributie gebaseerd op Ubuntu (of Debian voor LMDE). Het staat bekend om zijn Cinnamon‑desktop, die sterk lijkt op de klassieke Windows‑interface. 
 
 - Interface: Klassiek Windows‑achtig (Cinnamon)
@@ -43,6 +45,8 @@ Linux Mint is een gebruiksvriendelijke, stabiele distributie gebaseerd op Ubuntu
 Kies Linux Mint als je een klassieke Windows‑ervaring, maximale stabiliteit en een no‑nonsense desktop wilt Mint is minder geschikt als je de nieuwste software en maximale aanpasbaarheid vraagt.
 
 ### Zorin OS
+
+<img src="images/ZorinOS_logo.png" alt="Zorin OS" width="100">
 
 Zorin OS is een Ubuntu‑LTS‑gebaseerde distributie die expliciet ontworpen is om de overstap van Windows zo soepel mogelijk te maken. Het is geen experimentele Linux‑distro, maar een comfortabele, moderne en visueel gepolijste desktopomgeving.
 
@@ -60,6 +64,8 @@ Kies Zorin OS als je een moderne Windows‑look, Windows‑app‑compatibiliteit
 
 ### Debian
 
+<img src="images/Debian_logo.png" alt="Debian" width="100">
+
 Debian is een van de oudste en meest betrouwbare Linux‑distributies die vandaag nog actief ontwikkeld wordt. Het is volledig community‑gedreven en staat bekend om zijn stabiliteit, voorspelbaarheid en enorme software‑repositories.
 
 - Interface: GNOME (klassiek, sober)
@@ -72,6 +78,8 @@ Je kiest Debian wanneer je stabiliteit, betrouwbaarheid en rust belangrijker vin
 
 ### Ubuntu
 
+<img src="images/Ubuntu_logo.png" alt="Ubuntu" width="100">
+
 Ubuntu is een van de meest gebruikte toegankelijke Linux‑distributies ter wereld. Het is gebouwd op Debian, maar richt zich veel sterker op gebruiksgemak, moderne desktopervaring en brede hardware‑ondersteuning.
 
 - Interface: GNOME met Ubuntu‑shell
@@ -83,6 +91,8 @@ Ubuntu is een van de meest gebruikte toegankelijke Linux‑distributies ter were
 Je kiest Ubuntu wanneer je een stabiele, moderne en gebruiksvriendelijke Linux‑ervaring wilt zonder gedoe. Het is ideaal voor beginners dankzij de automatische hardwaredetectie, duidelijke instellingen en enorme community.
 
 ### Fedora
+
+<img src="images/Fedora_logo.png" alt="Fedora" width="100">
 
 Fedora is een moderne, vooruitstrevende Linux‑distributie die zich richt op nieuwe technologie, innovatie en een pure GNOME‑ervaring. Het wordt ontwikkeld door de community met ondersteuning van Red Hat, en fungeert vaak als de plek waar nieuwe Linux‑technologieën eerst verschijnen voordat ze later in enterprise‑systemen terechtkomen.
 
@@ -97,6 +107,8 @@ Je kiest Fedora wanneer je een moderne, snelle en cutting‑edge Linux‑ervarin
 ## Servers
 
 ### openSUSE
+
+<img src="images/openSUSE_logo.png" alt="openSUSE" width="100">
 
 openSUSE is een professionele, veelzijdige Linux‑distributie die wordt ontwikkeld door de openSUSE‑community in samenwerking met SUSE, een grote enterprise‑speler. Het bestaat in twee varianten: Leap (stabiel, enterprise‑basis) en Tumbleweed (rolling release, altijd up‑to‑date).
 
@@ -123,6 +135,8 @@ Tumbleweed is perfect voor wie een rolling release wil die toch betrouwbaar blij
 
 ### RHEL (Red Hat Enterprise Linux)
 
+<img src="images/RHEL_logo.png" alt="RHEL" width="100">
+
 RHEL is een enterprise‑gerichte Linux‑distributie ontwikkeld door Red Hat, een van de grootste en meest invloedrijke bedrijven in de open‑sourcewereld. Het is ontworpen voor bedrijven, organisaties en productieomgevingen waar stabiliteit, veiligheid, voorspelbaarheid en professionele ondersteuning cruciaal zijn.
 
 - Interface: GNOME (enterprise‑stijl)
@@ -137,6 +151,8 @@ Je kiest RHEL wanneer je een professioneel, stabiel en langdurig ondersteund Lin
 
 ### Bazzite
 
+<img src="images/Bazzite_logo.png" alt="Bazzite" width="100">
+
 Bazzite is een moderne, gaming‑gerichte Linux‑distributie gebouwd bovenop Fedora’s immutable technologie (rpm‑ostree). Het is ontworpen om een ervaring te bieden die sterk lijkt op SteamOS, maar dan geschikt voor gewone pc’s, laptops, HTPC’s en zelfs de Steam Deck.
 
 - Interface: KDE (SteamOS‑achtig)
@@ -149,6 +165,8 @@ Je kiest Bazzite wanneer je een SteamOS‑achtige ervaring wilt op hardware die 
 
 ### Nobara
 
+<img src="images/Nobara_logo.png" alt="Nobara" width="100">
+
 Nobara is een gaming‑gerichte Linux‑distributie gebouwd bovenop Fedora, maar dan met alle optimalisaties die gamers normaal zelf moeten installeren al vooraf geïntegreerd. In plaats van een “pure” Fedora‑ervaring krijg je een kant‑en‑klare gaming‑setup met aangepaste kernels, extra repositories, verbeterde compatibiliteit en tools die direct klaarstaan voor Steam, Lutris, Heroic, emulators en streamingsoftware.
 
 - Interface: GNOME of KDE
@@ -160,6 +178,8 @@ Nobara is een gaming‑gerichte Linux‑distributie gebouwd bovenop Fedora, maar
 Je kiest Nobara wanneer je een gebruiksvriendelijke, krachtige en volledig geoptimaliseerde gaming‑ervaring wilt zonder dat je zelf moet sleutelen aan drivers, kernels of compatibiliteitslagen.
 
 ### POP!_OS
+
+<img src="images/POP!_OS_logo.png" alt="Pop!_OS" width="100">
 
 Pop!_OS is een gebruiksvriendelijke, moderne Linux‑distributie ontwikkeld door System76. Het is gebaseerd op Ubuntu, maar richt zich veel sterker op productiviteit, creators, developers en NVIDIA‑gebruikers.
 
@@ -175,6 +195,8 @@ Je kiest Pop!_OS wanneer je een moderne, productieve en hardware‑vriendelijke 
 
 ### Arch Linux
 
+<img src="images/Arch_logo.png" alt="Arch" width="100">
+
 Arch Linux is een minimalistische, rolling‑release Linux‑distributie die je volledig zelf opbouwt. Het levert een extreem lichte basis zonder overbodige software, zodat je precies kunt installeren wat je nodig hebt.
 
 - Interface: Geen standaard (DIY)
@@ -186,6 +208,8 @@ Arch Linux is een minimalistische, rolling‑release Linux‑distributie die je 
 Je kiest Arch wanneer je volledige controle, maximale flexibiliteit en de nieuwste software wilt. Arch is ideaal voor power users die hun systeem precies willen begrijpen en configureren.
 
 ### CachyOS
+
+<img src="images/CachyOS_logo.png" alt="CachyOS" width="100">
 
 CachyOS is een Arch‑gebaseerde distributie die zich richt op maximale prestaties, vooral voor gaming en desktopgebruik. Het combineert de flexibiliteit van Arch met automatische optimalisaties zoals geavanceerde CPU‑schedulers, geoptimaliseerde kernels, prestatieprofielen en een gebruiksvriendelijke installer.
 
@@ -201,6 +225,9 @@ Je kiest CachyOS wanneer je Arch‑flexibiliteit wilt zonder Arch‑moeilijkheid
 
 ### NixOS
 
+<img src="images/NixOS_logo.png" alt="NixOS" width="100">
+
+
 NixOS is een unieke Linux‑distributie die volledig draait rond declaratieve configuratie en de Nix‑package‑manager. In plaats van handmatig instellingen te wijzigen, beschrijf je je hele systeem in één configuratiebestand.
 
 - Interface: Geen standaard (DIY)
@@ -213,6 +240,8 @@ Je kiest NixOS wanneer je volledige controle, reproduceerbaarheid en veiligheid 
 Het is ideaal voor developers, sysadmins en power users die hun systeem willen beheren als code.
 
 ### Gentoo Linux
+
+<img src="images/Gentoo_logo.png" alt="NixOS" width="100">
 
 Gentoo is een broncode‑gebaseerde Linux‑distributie waarbij je vrijwel alle software zelf compileert. Hierdoor kun je je systeem volledig optimaliseren voor jouw hardware en jouw wensen.
 
@@ -228,6 +257,8 @@ Je kiest Gentoo wanneer je absolute controle en maximale optimalisatie wilt. Gen
 
 ### Deepin
 
+<img src="images/Deepin_logo.png" alt="Deepin" width="100">
+
 Deepin is een Chinese Linux‑distributie die bekendstaat om zijn zeer moderne, visueel indrukwekkende en gebruiksvriendelijke desktopomgeving: de Deepin Desktop Environment (DDE).
 
 - Interface: Deepin Desktop (macOS‑achtig)
@@ -239,6 +270,8 @@ Deepin is een Chinese Linux‑distributie die bekendstaat om zijn zeer moderne, 
 Je kiest Deepin wanneer je een prachtige, moderne en zeer gebruiksvriendelijke desktop wilt die meteen goed aanvoelt zonder dat je iets hoeft te tweaken.
 
 ### Elementary OS
+
+<img src="images/ElementaryOS_logo.png" alt="Elementary" width="100">
 
 Elementary OS is een elegante, minimalistische Linux‑distributie gebaseerd op Ubuntu, ontworpen om een rustige, consistente en macOS‑achtige gebruikerservaring te bieden.
 
