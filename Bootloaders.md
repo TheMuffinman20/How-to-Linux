@@ -63,7 +63,7 @@ Kies systemd-boot als je een moderne UEFI-computer hebt en een eenvoudige Linux-
 
 ### rEFInd
 
-<img src="images/rEFInd_logo.png" alt="rEFInd" width="100">
+<img src="images/rEFInd_logo.png" alt="rEFInd" width="150">
 
 rEFInd toont de beschikbare besturingssystemen als duidelijke opstartopties.
 
@@ -76,11 +76,11 @@ Kies rEFInd als je meerdere UEFI-besturingssystemen naast elkaar gebruikt en een
 
 ## Oudere computers
 
-### GRUB
+### GNU GRUB
 
 <img src="images/GRUB_logo.png" alt="GRUB" width="100">
 
-GRUB is de meest gebruikte en breedst ondersteunde keuze.
+**GRUB** is de meest gebruikte en breedst ondersteunde keuze.
 
 - Geschikt voor dual-boot met Windows
 - Werkt op zowel UEFI als BIOS/Legacy
@@ -89,23 +89,28 @@ GRUB is de meest gebruikte en breedst ondersteunde keuze.
 
 Kies GRUB als je vooral compatibiliteit en uitgebreide ondersteuning belangrijk vindt.
 
-# Welke bootloader past bij mij?
+## Welke bootloader past bij mij?
 
-## Windows en Linux (dual-boot)
+### Windows en Linux (dual-boot)
 
 Kies **Limine** of **GRUB**.
 
-- Kies Limine als je een modern en overzichtelijk menu wilt.
-- Kies GRUB als je maximale compatibiliteit en documentatie wilt.
-- Installeer Windows eerst, dan Linux. Windows gaat anders de bootloader overschrijven.
+- Limine als je een modern en overzichtelijk menu wilt.
+- GRUB als je maximale compatibiliteit en documentatie wilt.
 
-## Alleen Linux (single-boot)
+### Alleen Linux (single-boot)
 
-Kies **systemd-boot** voor een eenvoudige UEFI-installatie, of **Limine** wanneer je meer configuratiemogelijkheden wilt. GRUB blijft een veilige keuze als je distributie het aanbiedt.
+Kies **systemd-boot** of **Limine**.
 
-## Meerdere Linux-installaties
+- systemd-boot voor een eenvoudige UEFI-installatie.
+- Limine wanneer je meer configuratiemogelijkheden wilt.
+- GRUB blijft een veilige keuze als je distributie het aanbiedt.
 
-Kies **GRUB**, **Limine** of **rEFInd**. Deze keuzes maken het eenvoudiger om meerdere systemen of kernels in één opstartmenu te beheren.
+### Meerdere Linux-installaties
+
+Kies **GRUB**, **Limine** of **rEFInd**.
+
+- Deze keuzes maken het eenvoudiger om meerdere systemen of kernels in één opstartmenu te beheren.
 
 ### Aanbevolen keuze
 
@@ -116,4 +121,4 @@ Voor deze workshop:
 - Gebruik een **FAT32 EFI-systeempartitie** voor de bootbestanden.
 - Maak altijd een back-up voordat je partities of bootinstellingen wijzigt.
 
-Een verkeerde bootloaderkeuze verwijdert normaal gesproken niet automatisch je bestanden, maar een verkeerde partitie of firmware-instelling kan er wel voor zorgen dat een besturingssysteem niet meer opstart. Controleer daarom de schijf, opstartmodus en EFI-partitie zorgvuldig voordat je de installatie bevestigt.
+Een verkeerde bootloaderkeuze verwijdert normaal niet automatisch je bestanden, maar een verkeerde partitie of firmware-instelling kan er wel voor zorgen dat een besturingssysteem niet meer opstart. Controleer daarom de schijf, opstartmodus en EFI-partitie zorgvuldig voordat je de installatie bevestigt.

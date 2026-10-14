@@ -1,6 +1,6 @@
 # Hoe kies ik mijn distributie?
 
-Deze guide zal je helpen bij het kiezen van een geschikte distro voor jouw computer. Het aanbod is immens, en studenten worden vaak overweldigd door het aantal distributies die er zijn. 
+Deze guide zal je helpen bij het kiezen van een geschikte distro voor jouw computer. Het aanbod is immens, en studenten worden vaak overweldigd door het aantal distributies die er zijn.
 
 Om de keuze in OS te maken, moet je rekening houden met ontwerpcriteria. Helaas is het onmogelijk om aan alles te voldoen. Voor persoonlijk gebruik wil je liever een flexibel systeem, maar een bank zal liever voor een consistent systeem gaan.
 
@@ -8,7 +8,7 @@ Om de keuze in OS te maken, moet je rekening houden met ontwerpcriteria. Helaas 
 
 De respons van het OS moet voorspelbaar blijven.
 
-- Als ik meerdere keren dezelfde opdracht doe, krijg ik dan steeds hetzelfde resultaat? 
+- Als ik meerdere keren dezelfde opdracht doe, krijg ik dan steeds hetzelfde resultaat?
 - Crasht mijn systeem (te) vaak?
 
 ### Flexibiliteit
@@ -26,15 +26,15 @@ Het OS moet op verschillende hardware kunnen draaien.
 
 ## Windows-gebruikers
 
-Voor sommige mensen is de overstap naar Linux te groot, waardoor ze deze niet (volledig willen maken). Dit kan gemakkelijk verholpen worden, aangezien er distributies bestaan zoals Linux Mint en Zorin OS die extreem gebruiksvriendelijk zijn in zowel de installatie als de omgang, waardoor de stijle leercurve door het wisselen naar Linux geen probleem meer is. Deze besturingssystemen focussen zich op de GUI en gebruiken de terminal enkel waar nodig. 
+Voor sommige mensen is de overstap naar Linux te groot, waardoor ze deze niet (volledig willen maken). Dit kan gemakkelijk verholpen worden, aangezien er distributies bestaan zoals Linux Mint en Zorin OS die extreem gebruiksvriendelijk zijn in zowel de installatie als de omgang, waardoor de stijle leercurve door het wisselen naar Linux geen probleem meer is. Deze besturingssystemen focussen zich op de GUI en gebruiken de terminal enkel waar nodig.
 
-Hoewel de échte Linux-gebruikers toch liever hun skills tonen met moeilijkere distributies zijn Linux Mint en Zorin OS ook voor ervaren Linux-gebruikers geliefd: ze zijn simpel op te zetten en worden vaak gebruikt als substitutiemiddel voor Windows, maar dan efficiënter en beter. 
+Hoewel de échte Linux-gebruikers toch liever hun skills tonen met moeilijkere distributies zijn Linux Mint en Zorin OS ook voor ervaren Linux-gebruikers geliefd: ze zijn simpel op te zetten en worden vaak gebruikt als substitutiemiddel voor Windows, maar dan efficiënter en beter.
 
 ### Linux Mint
 
 <img src="images/Linux_Mint_logo.png" alt="Linux Mint" width="100">
 
-Linux Mint is een gebruiksvriendelijke, stabiele distributie gebaseerd op Ubuntu (of Debian voor LMDE). Het staat bekend om zijn Cinnamon‑desktop, die sterk lijkt op de klassieke Windows‑interface. 
+Linux Mint is een gebruiksvriendelijke, stabiele distributie gebaseerd op Ubuntu (of Debian voor LMDE). Het staat bekend om zijn Cinnamon‑desktop, die sterk lijkt op de klassieke Windows‑interface.
 
 - Interface: Klassiek Windows‑achtig (Cinnamon)
 - Gebruiksgemak: Zeer eenvoudig, alles werkt direct
@@ -177,11 +177,11 @@ Nobara is een gaming‑gerichte Linux‑distributie gebouwd bovenop Fedora, maar
 
 Je kiest Nobara wanneer je een gebruiksvriendelijke, krachtige en volledig geoptimaliseerde gaming‑ervaring wilt zonder dat je zelf moet sleutelen aan drivers, kernels of compatibiliteitslagen.
 
-### POP!_OS
+### POP!\_OS
 
 <img src="images/POP!_OS_logo.png" alt="Pop!_OS" width="100">
 
-Pop!_OS is een gebruiksvriendelijke, moderne Linux‑distributie ontwikkeld door System76. Het is gebaseerd op Ubuntu, maar richt zich veel sterker op productiviteit, creators, developers en NVIDIA‑gebruikers.
+Pop!\_OS is een gebruiksvriendelijke, moderne Linux‑distributie ontwikkeld door System76. Het is gebaseerd op Ubuntu, maar richt zich veel sterker op productiviteit, creators, developers en NVIDIA‑gebruikers.
 
 - Interface: COSMIC (GNOME‑afgeleide)
 - Gebruiksgemak: Zeer eenvoudig, productief
@@ -189,7 +189,7 @@ Pop!_OS is een gebruiksvriendelijke, moderne Linux‑distributie ontwikkeld door
 - Softwarebeheer: APT + Flatpak, Ubuntu LTS
 - Doelgroep: Creators, developers
 
-Je kiest Pop!_OS wanneer je een moderne, productieve en hardware‑vriendelijke Linux‑ervaring wilt die minder rommelig is dan Ubuntu en meer gericht is op efficiënt werken.
+Je kiest Pop!\_OS wanneer je een moderne, productieve en hardware‑vriendelijke Linux‑ervaring wilt die minder rommelig is dan Ubuntu en meer gericht is op efficiënt werken.
 
 ## Prestaties en customisation
 
@@ -226,7 +226,6 @@ Je kiest CachyOS wanneer je Arch‑flexibiliteit wilt zonder Arch‑moeilijkheid
 ### NixOS
 
 <img src="images/NixOS_logo.png" alt="NixOS" width="100">
-
 
 NixOS is een unieke Linux‑distributie die volledig draait rond declaratieve configuratie en de Nix‑package‑manager. In plaats van handmatig instellingen te wijzigen, beschrijf je je hele systeem in één configuratiebestand.
 
@@ -271,7 +270,7 @@ Je kiest Deepin wanneer je een prachtige, moderne en zeer gebruiksvriendelijke d
 
 ### Elementary OS
 
-<img src="images/ElementaryOS_logo.png" alt="Elementary" width="100">
+<img src="images/ElementaryOS_logo.png" alt="Elementary" width="120">
 
 Elementary OS is een elegante, minimalistische Linux‑distributie gebaseerd op Ubuntu, ontworpen om een rustige, consistente en macOS‑achtige gebruikerservaring te bieden.
 

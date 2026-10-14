@@ -28,69 +28,7 @@ Een zware desktop gebruikt meer geheugen en grafische middelen dan een lichte de
 - Voor oudere hardware zijn Xfce, LXQt en MATE vaak betere keuzes.
 - Een tiling windowmanager kan licht en snel zijn, maar vraagt meestal meer handmatige configuratie.
 
-## Desktop Omgevingen
-
-### Windows-gebruikers en beginners
-
-Cinnamon, KDE Plasma
-
-### Moderne en eenvoudige workflow
-
-GNOME, KDE Plasma
-
-### Oudere of beperkte hardware
-
-Xfce, LXQt
-
-### Prestaties en maatwerk
-
-KDE Plasma, Hyprland
-
-### Toetsenbordgerichte workflow
-
-Hyprland, Sway, Dwm
-
-## Desktopomgevingen uitgelegd
-
-### GNOME
-
-<img src="images/Gnome_logo.png" alt="Gnome" width="100">
-
-
-GNOME heeft een eenvoudige en rustige interface met een sterke focus op overzicht en workflow.
-
-- Moderne Wayland-ondersteuning
-- Weinig afleiding en een consistente interface
-- Geschikt voor beginners
-- Minder instellingen en traditionele taakbalkopties dan sommige andere desktops
-
-Kies GNOME als je een moderne omgeving wilt die vooral eenvoudig en overzichtelijk werkt.
-
-### KDE Plasma
-
-<img src="images/Kde_logo.png" alt="Kde Plasma" width="100">
-
-KDE Plasma biedt een traditionele desktop met veel mogelijkheden om het uiterlijk en gedrag aan te passen.
-
-- Veel instellingen en aanpassingsmogelijkheden
-- Geschikt voor gebruikers die van Windows komen
-- Goede ondersteuning voor meerdere schermen en verschillende workflows
-- Door de vele opties kan de omgeving overweldigend zijn
-
-Kies KDE Plasma als je een complete desktop wilt die je uitgebreid kunt aanpassen.
-
-### Xfce
-
-<img src="images/Xfce_logo.png" alt="Xfce" width="100">
-
-Xfce is een lichte en klassieke desktopomgeving.
-
-- Laag geheugengebruik
-- Stabiel en overzichtelijk
-- Geschikt voor oudere computers
-- Minder modern uiterlijk en minder geïntegreerde functies dan GNOME of KDE Plasma
-
-Kies Xfce als prestaties en stabiliteit belangrijker zijn dan een moderne standaardinterface.
+## Windows-gebruikers en beginners
 
 ### Cinnamon
 
@@ -105,6 +43,49 @@ Cinnamon gebruikt een vertrouwde indeling met een menu, taakbalk en systeemvak.
 
 Kies Cinnamon als je zonder grote veranderingen van Windows naar Linux wilt overstappen.
 
+### KDE Plasma
+
+<img src="images/KDE_Plasma_logo.png" alt="Kde Plasma" width="100">
+
+KDE Plasma biedt een traditionele desktop met veel mogelijkheden om het uiterlijk en gedrag aan te passen.
+
+- Veel instellingen en aanpassingsmogelijkheden
+- Geschikt voor gebruikers die van Windows komen
+- Goede ondersteuning voor meerdere schermen en verschillende workflows
+- Door de vele opties kan de omgeving overweldigend zijn
+
+Kies KDE Plasma als je een complete desktop wilt die je uitgebreid kunt aanpassen.
+
+## Moderne en eenvoudige workflow
+
+### GNOME
+
+<img src="images/Gnome_logo.png" alt="Gnome" width="100">
+
+GNOME heeft een eenvoudige en rustige interface met een sterke focus op overzicht en workflow.
+
+- Moderne Wayland-ondersteuning
+- Weinig afleiding en een consistente interface
+- Geschikt voor beginners
+- Minder instellingen en traditionele taakbalkopties dan sommige andere desktops
+
+Kies GNOME als je een moderne omgeving wilt die vooral eenvoudig en overzichtelijk werkt.
+
+## Oudere of beperkte hardware
+
+### Xfce
+
+<img src="images/Xfce_logo.png" alt="Xfce" width="100">
+
+Xfce is een lichte en klassieke desktopomgeving.
+
+- Laag geheugengebruik
+- Stabiel en overzichtelijk
+- Geschikt voor oudere computers
+- Minder modern uiterlijk en minder geïntegreerde functies dan GNOME of KDE Plasma
+
+Kies Xfce als prestaties en stabiliteit belangrijker zijn dan een moderne standaardinterface.
+
 ### LXQt
 
 <img src="images/LXQt_logo.png" alt="LXQt" width="100">
@@ -117,6 +98,8 @@ LXQt is ontworpen om zo weinig mogelijk systeembronnen te gebruiken.
 - Minder functies en integratie standaard aanwezig
 
 Kies LXQt als je computer weinig geheugen of beperkte grafische prestaties heeft.
+
+## Toetsenbordgerichte workflow
 
 ### Hyprland
 
