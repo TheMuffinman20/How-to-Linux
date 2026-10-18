@@ -7,9 +7,9 @@ In deze workshop volgen we een vast stappenplan, aangevuld met uitleg zodat je p
 - Een USB-stick van minstens 8 GB
 - Een stabiele internetverbinding (WiFi of Ethernet)
 
-> Let op: alle gegevens die momenteel op de USB-stick staan, worden volledig gewist en kunnen niet worden hersteld.
+> [!NOTE] Voor je begint, zorg je best voor een back-up van Windows (of je huidige OS) én alle belangrijke bestanden.  
 
-> Belangrijk: maak een back-up. Voor je begint, zorg je best voor een back-up van Windows (of je huidige OS) én alle belangrijke bestanden. Hoewel we zorgvuldig te werk gaan, kan een fout tijdens de installatie leiden tot dataverlies.
+> [!CAUTION] Alle gegevens die momenteel op de USB-stick staan, worden volledig gewist en kunnen niet worden hersteld.
 
 # Setup
 
@@ -67,7 +67,7 @@ Controleer nog een laatste keer of je de correcte USB-stick geselecteerd hebt vo
 
 Wacht tot de tool klaar is met schrijven van het bestand, daarna kun je hem veilig verwijderen van de computer. Goed gedaan, je hebt nu een zogeheten "Live USB" aangemaakt!
 
-> Extra: als je de USB weer wilt gebruiken om data op te slaan na de volledige dual-boot, kun je hem in de computer inpluggen en via Windows Verkenner formatteren door op de usb rechts te klikken en formatteren te kiezen naar FAT32 of exFAT. Dit zal opnieuw alle data wissen die werd geschreven door het hulpprogramma, en de USB weer klaarmaken voor dataopslag.
+> [!NOTE] Als je de USB weer wilt gebruiken om data op te slaan na de volledige dual-boot, kun je hem in de computer inpluggen en via Windows Verkenner formatteren door op de usb rechts te klikken en formatteren te kiezen naar FAT32 of exFAT. Dit zal opnieuw alle data wissen die werd geschreven door het hulpprogramma, en de USB weer klaarmaken voor dataopslag.
 
 # Schijfruimte vrijmaken
 
@@ -89,7 +89,7 @@ Als alles goed is, verschijnt nu een blok **Niet-toegewezen ruimte** (**Unalloca
 
 Als je ervoor kiest om enkel Linux te installeren, hoef je geen ruimte vrij te maken in Windows. Tijdens de Linux-installatie kun je ervoor kiezen om de volledige schijf te gebruiken.
 
-> Let op: dit verwijdert alle Windows-data permanent.
+> [!CAUTION] Dit verwijdert alle Windows-data permanent!
 
 Wil je later Windows opnieuw installeren, dan moet je weten dat Windows de neiging heeft om de bootloader te overschrijven. Daarom installeer je in de praktijk:
 
@@ -142,7 +142,7 @@ Meestal start de installer automatisch op in de liveomgeving van je linux distri
 
 Wanneer je klaar bent om Linux te installeren, open je **Install Linux** of **Launch Installer** vanaf het bureaublad of vanuit het installatiemenu. De precieze naam en weergave kunnen per distributie verschillen.
 
-> Tip: LTS staat voor _Long Term Support_ en betekent dat een versie langere tijd updates krijgt. Deze versies van het OS zijn ideaal voo servers.
+> [!TIP] LTS staat voor _Long Term Support_ en betekent dat een versie langere tijd updates krijgt. Deze versies van het OS zijn ideaal voo servers.
 
 Volg de aanwijzingen van de installer:
 
@@ -155,7 +155,7 @@ Volg de aanwijzingen van de installer:
 
 De bootloader is het programma dat opstart nog voor het besturingssysteem om je de keuze te geven met welk OS je de computer wilt besturen. Er zijn doorgaans veel verschillende bootloaders, met elk een andere look. In deze workshop zullen we kiezen voor **Limine**, een moderne bootloader die even eenvoudig is als GRUB en beter kan werken met Windows en Arch-distributies op hetzelfde systeem.
 
-> Extra: Ben je wat onzeker over deze keuze? Bekijk dan de workshop "Bootloaders".
+> [!NOTE] Ben je wat onzeker over deze keuze? Bekijk dan de workshop "Bootloaders".
 
 ## Partities
 
@@ -192,14 +192,13 @@ Controleer je keuzes zorgvuldig en bevestig daarna de installatie.
 
 Kies Schijf wissen en Linux installeren (of **Erase disk and install Linux**) als je Linux als enige besturingssysteem op de gekozen schijf wilt gebruiken.
 
-> Let op: Deze optie verwijdert alle gegevens op de geselecteerde schijf, waaronder Windows en persoonlijke bestanden. Controleer zorgvuldig welke schijf is geselecteerd en zorg vooraf voor een back-up.
+> [!CAUTION] Deze optie verwijdert alle gegevens op de geselecteerde schijf, waaronder Windows en persoonlijke bestanden. Controleer zorgvuldig welke schijf is geselecteerd en zorg vooraf voor een back-up.
 
 ## Desktopomgeving
 
-Sommige installers vragen welke desktopomgeving je wilt gebruiken. In deze guide zullen we opteren voor Kde plasma, een op Wayland-gebaseerde windowmanager die een flexibele omgeving en hogere snelheid als basisprincipes heeft.
+Sommige installers vragen welke desktopomgeving je wilt gebruiken. In deze guide zullen we opteren voor KDE plasma, een op Wayland-gebaseerde windowmanager die een flexibele omgeving en hogere snelheid als basisprincipes heeft.
 
-> Extra: Kde plasma heeft ook een x11 versie maar deze laten we even achterwege
-> Tip: Ben je wat onzeker over deze keuze? Volg dan de guide "Desktops". 
+> [!NOTE] Ben je wat onzeker over deze keuze? Volg dan de guide "Desktops".  
 
 ## Pakketten
 
@@ -218,7 +217,7 @@ Als laatste zal de installer vragen welke gebruiker het systeem zal beheren. Hie
 3. Geef de naam van de computer in
 4. Geef het wachtwoord voor de gebruiker in
 
-> Tip: Als je hetzelfde wachtwoord voor root wilt gebruiken, vink je de optie **Use the same password for root** aan.
+> [!TIP] Als je hetzelfde wachtwoord voor root wilt gebruiken, vink je de optie **Use the same password for root** aan.
 
 ## Afronding en eerste start
 
@@ -235,4 +234,4 @@ Linux is nu geïnstalleerd. Bij een dual-boot toont de computer doorgaans een op
 
 ...
 
-> Extra: Bij andere vragen kun je langskomen bij het IT-Lab waar studenten en lectoren klaarstaan om jou zo snel en zo goed mogelijk te helpen met problemen. Kom gerust eens langs!
+> [!NOTE] Bij andere vragen kun je langskomen bij het IT-Lab waar studenten en lectoren klaarstaan om jou zo snel en zo goed mogelijk te helpen met problemen. Kom gerust eens langs!
