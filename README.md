@@ -8,18 +8,36 @@
 
 ## Over deze repository
 
-Een gids over Linuxom Linux te installeren als single of dual boot.  
+Welkom bij How-to-Linux! Deze repository bevat een uitgebreide gids over het installeren van Linux, zowel als single boot als dual boot met een bestaande besturingssysteem.
 
 > [!WARNING]
 > Maak altijd een back-up voor je guide begint.
 
+## Snelstart
+
+1. Maak een back-up van je data.
+2. Kies een distributie die je wilt gebruiken.
+3. Volg de installatiegids.
+4. Kies een desktopomgeving die bij je past.
+5. Configureer je bootloader volgens je installatie.
+
 ## Documenten
 
-- [Installatie](https://github.com/How-to-Linux/guides/Installatie.md)
-- [Distributies](https://github.com/How-to-Linux/guides/Distributies.md)
-- [Desktops](https://github.com/How-to-Linux/guides/Desktops.md)
-- [Bootloaders](https://github.com/How-to-Linux/guides/Bootloaders.md)
+- [Distributies](guides/distributies.md)
+- [Installatie](guides/installatie.md)
+- [Desktops](guides/desktops.md)
+- [Bootloaders](guides/bootloaders.md)
+
+## Repository structuur
+
+- `guides/` — handleidingen voor installatie, distributies, desktops en bootloaders
+- `images/` — afbeeldingen en screenshots
+- `LICENSE.md` — licentieinformatie
 
 ## Fouten
 
 Fouten gevonden? Open een [issue](https://github.com/TheMuffinman20/How-to-Linux/issues).
+
+## Licentie
+
+Deze repository is beschikbaar onder de voorwaarden van de [MIT-licentie](LICENSE.md).
