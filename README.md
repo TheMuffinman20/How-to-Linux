@@ -23,10 +23,10 @@ Welkom bij How-to-Linux! Deze repository bevat een uitgebreide gids over het ins
 
 ## Documenten
 
-- [Distributies](guides/distributies.md)
-- [Installatie](guides/installatie.md)
-- [Desktops](guides/desktops.md)
-- [Bootloaders](guides/bootloaders.md)
+- [Installatie](guides/Installatie.md)
+- [Distributies](guides/Distributies.md)
+- [Desktops](guides/Desktops.md)
+- [Bootloaders](guides/Bootloaders.md)
 
 ## Repository structuur
 
