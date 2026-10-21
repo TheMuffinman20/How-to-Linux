@@ -2,16 +2,27 @@
 
 <div align=center>
 
-![Last commit](https://img.shields.io/github/last-commit/TheMuffinman20/How-to-Linux)
-![Repo size](https://img.shields.io/github/repo-size/TheMuffinman20/How-to-Linux)
+![GitHub last commit](https://img.shields.io/github/last-commit/TheMuffinman20/How-to-Linux?style=for-the-badge&labelColor=101418&color=1793D1)
+![GitHub repo size](https://img.shields.io/github/repo-size/TheMuffinman20/How-to-Linux?style=for-the-badge&labelColor=101418&color=1793D1)
 </div>
 
-## Components
+Een gids over Linuxom Linux te installeren als single of dual boot.  
 
-- Widgets: [`Quickshell`](https://quickshell.outfoxxed.me)
-- Window manager: [`Hyprland`](https://hypr.land)
-- Dots: [`caelestia`][dots-repo]
+> [!WARNING]
+> Maak altijd een back-up voor je guide begint.
 
-Nothing here yet...
+## Inhoud
 
-Contributors: Thibo Daelman (TheMuffinman20), Lowie Rottye (vijfkebabs)
+- [Installatie](https://github.com/How-to-Linux/guides/Installatie.md)
+- [Distributies](https://github.com/How-to-Linux/guides/Distributies.md)
+- [Desktops](https://github.com/How-to-Linux/guides/Desktops.md)
+- [Bootloaders](https://github.com/How-to-Linux/guides/Bootloaders.md)
+
+## Bijdragen
+
+Fouten gevonden? Open een [issue](https://github.com/TheMuffinman20/How-to-Linux/issues).
+
+## Contributors
+
+- Thibo Daelman ([TheMuffinman20](https://github.com/TheMuffinman20))
+- Lowie Rottye ([vijfkebabs](https://github.com/vijfkebabs))
