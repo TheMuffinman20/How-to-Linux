@@ -24,5 +24,5 @@ Fouten gevonden? Open een [issue](https://github.com/TheMuffinman20/How-to-Linux
 
 ## Contributors
 
-- Thibo Daelman ([TheMuffinman20](https://github.com/TheMuffinman20))
-- Lowie Rottye ([vijfkebabs](https://github.com/vijfkebabs))
+- [TheMuffinman20](https://github.com/TheMuffinman20))
+- [vijfkebabs](https://github.com/vijfkebabs))
