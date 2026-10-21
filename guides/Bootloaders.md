@@ -32,7 +32,7 @@ De bootloader moet passen bij de firmware en de schijfindeling van je computer.
 
 ### Limine
 
-<img src="images/Limine_logo.png" alt="Limine" width="100">
+<img src="../images/Limine_logo.png" alt="Limine" width="100">
 
 Limine is een moderne bootloader met ondersteuning voor UEFI en BIOS/Legacy.
 
@@ -47,7 +47,7 @@ In deze workshop kiezen we voor **Limine**, omdat hij een moderne en flexibele k
 
 ### Systemd-boot
 
-<img src="images/Systemd-boot_logo.png" alt="Systemd-boot" width="100">
+<img src="../images/Systemd-boot_logo.png" alt="Systemd-boot" width="100">
 
 Systemd-boot is een lichte bootloader voor moderne UEFI-systemen.
 
@@ -63,7 +63,7 @@ Kies systemd-boot als je een moderne UEFI-computer hebt en een eenvoudige Linux-
 
 ### rEFInd
 
-<img src="images/rEFInd_logo.png" alt="rEFInd" width="150">
+<img src="../images/rEFInd_logo.png" alt="rEFInd" width="150">
 
 rEFInd toont de beschikbare besturingssystemen als duidelijke opstartopties.
 
@@ -78,7 +78,7 @@ Kies rEFInd als je meerdere UEFI-besturingssystemen naast elkaar gebruikt en een
 
 ### GNU GRUB
 
-<img src="images/GRUB_logo.png" alt="GRUB" width="100">
+<img src="../images/GRUB_logo.png" alt="GRUB" width="100">
 
 **GRUB** is de meest gebruikte en breedst ondersteunde keuze.
 
