@@ -17,9 +17,9 @@ Welkom bij How-to-Linux! Deze repository bevat een uitgebreide gids over het ins
 
 1. Maak een back-up van je data.
 2. Kies een distributie die je wilt gebruiken.
-3. Volg de installatiegids.
-4. Kies een desktopomgeving die bij je past.
-5. Configureer je bootloader volgens je installatie.
+3. Kies een desktopomgeving die bij je past.
+4. Kies een bootloader volgens je besturingssysteem.
+5. Volg de installatiegids.
 
 ## Documenten
 
