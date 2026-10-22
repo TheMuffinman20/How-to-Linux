@@ -2,6 +2,7 @@
 
 <div align=center>
 
+![Commits](https://img.shields.io/github/commit-activity/t/TheMuffinman20/How-to-Linux?style=for-the-badge&labelColor=101418&color=1793D1)
 ![GitHub last commit](https://img.shields.io/github/last-commit/TheMuffinman20/How-to-Linux?style=for-the-badge&labelColor=101418&color=1793D1)
 ![GitHub repo size](https://img.shields.io/github/repo-size/TheMuffinman20/How-to-Linux?style=for-the-badge&labelColor=101418&color=1793D1)
 </div>
