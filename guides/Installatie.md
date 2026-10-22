@@ -162,7 +162,7 @@ Volg de aanwijzingen van de installer:
 De bootloader is het programma dat opstart nog voor het besturingssysteem om je de keuze te geven met welk OS je de computer wilt besturen. Er zijn doorgaans veel verschillende bootloaders, met elk een andere look. In deze workshop zullen we kiezen voor **Limine**, een moderne bootloader die even eenvoudig is als GRUB en beter kan werken met Windows en Arch-distributies op hetzelfde systeem.
 
 > [!NOTE]  
-> Ben je wat onzeker over deze keuze? Bekijk dan de workshop "Bootloaders".
+> Ben je wat onzeker over deze keuze? Bekijk dan de workshop [**Bootloaders**](guides/bootloaders.md).
 
 ## Partities
 
@@ -207,7 +207,7 @@ Kies Schijf wissen en Linux installeren (of **Erase disk and install Linux**) al
 Sommige installers vragen welke desktopomgeving je wilt gebruiken. In deze guide zullen we opteren voor KDE plasma, een op Wayland-gebaseerde windowmanager die een flexibele omgeving en hogere snelheid als basisprincipes heeft.
 
 > [!NOTE]  
-> Ben je wat onzeker over deze keuze? Volg dan de guide "Desktops".  
+> Ben je wat onzeker over deze keuze? Volg dan de guide [**Desktops**](guides/desktops.md).  
 
 ## Pakketten
 
