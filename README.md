@@ -17,10 +17,10 @@ Welkom bij How-to-Linux! Deze repository bevat een uitgebreide gids over het ins
 ## Snelstart
 
 1. Maak een back-up van je data.
-2. Kies een distributie die je wilt gebruiken.
-3. Kies een desktopomgeving die bij je past.
-4. Kies een bootloader volgens je besturingssysteem.
-5. Volg de installatiegids.
+2. Volg de installatiegids.
+3. Kies de distributie die je wilt gebruiken.
+4. Kies de desktopomgeving die bij je past.
+5. Kies een bootloaders volgens je besturingssysteem.
 
 ## Documenten
 
