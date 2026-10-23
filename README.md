@@ -12,15 +12,15 @@
 Welkom bij How-to-Linux! Deze repository bevat een uitgebreide gids over het installeren van Linux, zowel als single boot als dual boot met een bestaande besturingssysteem.
 
 > [!WARNING]
-> Maak altijd een back-up voor je guide begint.
+> Maak altijd een back-up voor je aan de guide begint.
 
 ## Snelstart
 
 1. Maak een back-up van je data.
-2. Volg de installatiegids.
+2. Volg de installatiegids aandachtig.
 3. Kies de distributie die je wilt gebruiken.
 4. Kies de desktopomgeving die bij je past.
-5. Kies een bootloaders volgens je besturingssysteem.
+5. Kies de bootloader volgens je besturingssystemen.
 
 ## Documenten
 
