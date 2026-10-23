@@ -1,8 +1,8 @@
-# Hoe kies ik mijn desktop?
+# Hoe kies ik de juiste desktopomgeving?
 
-Deze guide helpt je bij het kiezen van een geschikte grafische werkomgeving voor Linux. Je desktop bepaalt hoe je vensters, bestanden, instellingen en programma's gebruikt. De keuze heeft vooral invloed op de bediening, het geheugengebruik en hoeveel je zelf moet instellen.
+Deze guide helpt je bij het kiezen van een geschikte grafische werkomgeving voor je Linux-installatie. Je desktopomgeving is een compleet pakket met onder andere een vensterbeheerder, taakbalk, bestandsbeheerder, instellingen en standaardprogramma's. De keuze heeft vooral invloed op de bediening, het geheugengebruik en hoeveel je zelf moet instellen.
 
-Een **desktopomgeving** (desktop environment of DE) is een compleet pakket met onder andere een vensterbeheerder, taakbalk, bestandsbeheerder, instellingen en standaardprogramma's. Een **windowmanager** beheert voornamelijk de vensters. Een windowmanager zoals Hyprland heeft daardoor meestal extra configuratie en programma's nodig.
+Een **desktopomgeving** (desktop environment of DE) omvat ook een een **windowmanager**, die voornamelijk de programmavensters op je scherm beheert. Dit heeft veel invloed op het gebruiksgemak, de leercurve en de snelheid.
 
 ## 1. Consistentie
 
@@ -20,12 +20,12 @@ Elke desktop biedt een andere balans tussen gebruiksgemak en controle.
 - Gebruik je liever een muis, sneltoetsen of een combinatie?
 - Wil je thema's, panelen en vensterindeling uitgebreid kunnen aanpassen?
 
-## 3. Prestaties en hardware
+## 3. Prestaties
 
 Een zware desktop gebruikt meer geheugen en grafische middelen dan een lichte desktop.
 
-- Voor een moderne computer zijn GNOME en KDE Plasma meestal geschikt.
-- Voor oudere hardware zijn Xfce, LXQt en MATE vaak betere keuzes.
+- Hoeveel werkgeheugen heeft je systeem?
+- Wil je liever een rustige omgeving of snelheid en prestaties?
 - Een tiling windowmanager kan licht en snel zijn, maar vraagt meestal meer handmatige configuratie.
 
 ## Windows-gebruikers en beginners
