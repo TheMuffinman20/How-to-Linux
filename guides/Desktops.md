@@ -27,6 +27,17 @@ Een zware desktop gebruikt meer geheugen en grafische middelen dan een lichte de
 - Hoeveel werkgeheugen heeft je systeem?
 - Wil je liever een rustige omgeving of snelheid en prestaties?
 - Een tiling windowmanager kan licht en snel zijn, maar vraagt meestal meer handmatige configuratie.
+_________________________________________________________________________________________________________________________________
+| Desktopomgeving | Gebruiksgemak | Aanpasbaarheid | Prestaties | Geschikt voor | Opmerking |
+| --- | --- | --- | --- | --- | --- |
+| Cinnamon | Hoog | Gemiddeld | Gemiddeld | Beginners, Windows-gebruikers | Vertrouwde, klassieke desktop met veel herkenning |
+| KDE Plasma | Hoog | Zeer hoog | Gemiddeld | Gebruikers die veel willen aanpassen | Volledige desktop met veel instellingen |
+| GNOME | Hoog | Laag tot gemiddeld | Gemiddeld | Beginners, gebruikers die overzicht willen | Moderne, rustige interface met weinig afleiding |
+| Xfce | Hoog | Gemiddeld | Goed | Oude computers, gebruikers die licht willen werken | Lichte en stabiele desktop |
+| LXQt | Gemiddeld | Laag | Zeer goed | Beperkte hardware, lichte systemen | Minimalistische en snelle desktop |
+| Hyprland | Laag | Zeer hoog | Zeer goed | Power users, toetsenbordgerichte workflow | Dynamische tiling window manager zonder standaard desktop |
+| Sway | Laag | Hoog | Zeer goed | Gebruikers die i3-achtig werken | Licht en snel, maar meer configuratie nodig |
+| DWM | Zeer laag | Zeer hoog | Zeer goed | Geavanceerde gebruikers | Extreem minimalistisch en technisch, weinig “out-of-the-box” |
 
 ## Soorten desktopomgevingen
 
@@ -141,6 +152,12 @@ Dwm is een minimalistische en dynamische windowmanager voor X11. Vensters worden
 Kies dwm als je een uiterst lichte, toetsenbordgerichte windowmanager wilt en het geen probleem vindt om technische configuratie zelf te beheren.
 
 ## Welke desktop past bij mij?
+
+### Snelle keuze
+- Als je Windows-achtig wilt werken: Cinnamon of KDE Plasma
+- Als je snel en licht wilt werken: Xfce of LXQt
+- Als je veel controle wilt: Hyprland, Sway of DWM
+- Als je een moderne, rustige omgeving wilt: GNOME
 
 ### Windows-gebruikers en beginners
 
