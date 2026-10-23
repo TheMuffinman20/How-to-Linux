@@ -7,11 +7,9 @@ In deze workshop volgen we een vast stappenplan, aangevuld met uitleg zodat je p
 - Een USB-stick van minstens 8 GB
 - Een stabiele internetverbinding (WiFi of Ethernet)
 
-> [!NOTE]  
-> Voor je begint, zorg je best voor een back-up van Windows (of je huidige OS) én alle belangrijke bestanden.  
-
-> [!CAUTION]  
-> Alle gegevens die momenteel op de USB-stick staan, worden volledig gewist en kunnen niet worden hersteld.
+> [!WARNING]
+> Alle gegevens die momenteel op de USB-stick staan, worden volledig gewist en kunnen niet worden hersteld.  
+> Voor je begint, zorg je best voor een back-up van Windows (of je huidige OS) én alle belangrijke bestanden.
 
 # Setup
 
