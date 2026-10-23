@@ -28,7 +28,7 @@ Een zware desktop gebruikt meer geheugen en grafische middelen dan een lichte de
 - Wil je liever een rustige omgeving of snelheid en prestaties?
 - Een tiling windowmanager kan licht en snel zijn, maar vraagt meestal meer handmatige configuratie.
 
-## Windows-gebruikers en beginners
+## Soorten desktopomveningen
 
 ### Cinnamon
 
@@ -56,8 +56,6 @@ KDE Plasma biedt een traditionele desktop met veel mogelijkheden om het uiterlij
 
 Kies KDE Plasma als je een complete desktop wilt die je uitgebreid kunt aanpassen.
 
-## Moderne en eenvoudige workflow
-
 ### GNOME
 
 <img src="../images/desktops/Gnome_logo.png" alt="Gnome" width="100">
@@ -70,8 +68,6 @@ GNOME heeft een eenvoudige en rustige interface met een sterke focus op overzich
 - Minder instellingen en traditionele taakbalkopties dan sommige andere desktops
 
 Kies GNOME als je een moderne omgeving wilt die vooral eenvoudig en overzichtelijk werkt.
-
-## Oudere of beperkte hardware
 
 ### Xfce
 
@@ -99,8 +95,6 @@ LXQt is ontworpen om zo weinig mogelijk systeembronnen te gebruiken.
 
 Kies LXQt als je computer weinig geheugen of beperkte grafische prestaties heeft.
 
-## Toetsenbordgerichte workflow
-
 ### Hyprland
 
 <img src="../images/desktops/Hyprland_logo.png" alt="Hyprland" width="100">
@@ -114,7 +108,7 @@ Hyprland is een dynamische windowmanager voor Wayland. Vensters worden automatis
 - Geen volledige desktopomgeving; panelen, notificaties en andere onderdelen moeten vaak apart worden ingesteld
 - Minder geschikt als je direct een volledig ingerichte desktop wilt
 
-Kies Hyprland als je controle, snelheid en maatwerk belangrijk vindt en bereid bent zelf je werkomgeving op te bouwen.
+Kies Hyprland omdat je controle, snelheid en maatwerk belangrijk vindt. Je bent ook bereid om zelf de werkomgeving op te bouwen.
 
 ### Sway
 
@@ -152,32 +146,31 @@ Kies dwm als je een uiterst lichte, toetsenbordgerichte windowmanager wilt en he
 
 Kies **Cinnamon** of **KDE Plasma**.
 
-- Cinnamon heeft een eenvoudige en vertrouwde indeling.
-- KDE Plasma biedt meer functies en aanpassingsmogelijkheden aan.
+- **Cinnamon** heeft een eenvoudige en vertrouwde indeling, zoals de klassieke Windows-omgeving.
+- **KDE Plasma** biedt meer functies en aanpassingsmogelijkheden aan, zoals de moderne Windows-omgeving.
 
 ### Stabiliteit
 
 Kies **GNOME** of **Xfce**.
 
-- GNOME is geschikt voor een moderne en geïntegreerde workflow.
-- Xfce is geschikt als je een lichte en klassieke desktopomgeving wilt.
-
-### Oudere of beperkte hardware
-
-Kies **Xfce** of **LXQt**. Deze omgevingen laten meer systeembronnen over voor je programma's.
+- **GNOME** is geschikt voor een moderne en geïntegreerde workflow.
+- **Xfce** is beter als je een lichte en klassieke desktopomgeving wilt.
 
 ### Prestaties
 
-Kies **Hyprland** als je met Wayland en sneltoetsen wilt werken. Kies **KDE Plasma** als je veel wilt aanpassen zonder alle onderdelen zelf te configureren.
+Kies **Hyprland** of **DWM**.
 
-### Moderne, toetsenbordgerichte workflow
+- **Hyprland** werkt met Wayland en sneltoetsen of shortcuts. 
+- **DWM** is een zeer minimalistische maar snelle tiling-windowmanager.
 
-Kies **Hyprland**. Houd er rekening mee dat je na de installatie mogelijk zelf een bar, launcher, notificatiesysteem, wallpaperprogramma en lockscreen moet installeren en instellen.
+> [!IMPORTANT]
+> Houd er rekening mee dat je na de installatie zelf een taakbalk, applauncher, notificatiesysteem, achtergrondprogramma en vergrendelscherm moet installeren en instellen.
 
 ## Aanbevolen keuze
 
 In deze workshop kiezen we voor **KDE Plasma**, omdat deze desktopomgeving een goede balans biedt tussen gebruiksgemak, prestaties en aanpasbaarheid.
 
-Als je distributie tijdens de installatie naar een desktopomgeving vraagt, kies je voor **KDE Plasma**. Je krijgt dan meteen een volledige grafische desktop met onder andere een taakbalk, bestandsbeheerder, instellingen en ondersteuning voor meerdere schermen.
+Als je distributie tijdens de installatie naar een desktopomgeving vraagt, kies je voor **KDE Plasma**. Je krijgt dan meteen een volledige grafische desktop met onder andere een taakbalk, bestandsbeheerder, instellingen en ondersteuning voor meerdere schermen. Voor KDE Plasma kun je, afhankelijk van je distributie, kiezen tussen een Wayland-sessie en een X11-sessie.
 
-Kies **No desktop environment** alleen als je bewust zelf een windowmanager en de overige onderdelen van je werkomgeving wilt installeren. Voor KDE Plasma kun je, afhankelijk van je distributie, kiezen tussen een Wayland-sessie en een X11-sessie.
+> [!WARNING]
+> Kies **No desktop environment** alleen als je bewust zelf een windowmanager en de overige onderdelen van je werkomgeving wilt installeren. 
