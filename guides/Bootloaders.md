@@ -1,10 +1,10 @@
-# Hoe kies ik mijn bootloader?
+# Hoe kies ik de juiste bootloader?
 
 Deze guide helpt je bij het kiezen van een geschikte bootloader voor jouw Linux-installatie. De bootloader start op voordat het besturingssysteem wordt geladen en wordt gebruikt om de keuze van het besturingssysteem aan te geven, bijvoorbeeld tussen Linux en Windows.
 
 De beste keuze hangt vooral af van je firmware (ingebouwde software van je computer die de hardware aanstuurt en bepaalt hoe het systeem opstart), het aantal besturingssystemen (enkel Linux of Linux naast Windows) en hoeveel je zelf wilt aanpassen.
 
-> [!NOTE]
+> [!IMPORTANT]
 > Controleer eerst of je computer in **UEFI-modus** of in de oudere **BIOS/Legacy-modus** opstart. Voor moderne computers en een dual-boot met Windows gebruik je bij voorkeur **UEFI**.
 
 ### 1. Consistentie
@@ -29,24 +29,12 @@ De bootloader moet passen bij de firmware en de schijfindeling van je computer.
 
 - **UEFI** gebruikt een EFI-systeempartitie, meestal geformatteerd als FAT32.
 - **BIOS/Legacy** gebruikt een andere opstartmethode en is minder geschikt voor een nieuwe dual-bootinstallatie.
-- Installeer Linux en de bootloader in dezelfde modus. Start de Linux-USB dus ook op via de optie die met **UEFI** begint.
 
-## Twee besturingssystemen (Windows EN Linux)
+> [!NOTE]
+> Installeer Linux en de bootloader in dezelfde modus.
+> Start de Linux-USB dus ook op via de optie die met **UEFI** begint.
 
-### Limine
-
-<img src="../images/bootloaders/Limine_logo.png" alt="Limine" width="100">
-
-Limine is een moderne bootloader met ondersteuning voor UEFI en BIOS/Legacy.
-
-- Duidelijk en modern opstartmenu
-- Geschikt voor Linux en Windows in een dual-boot
-- Veel mogelijkheden zonder dat de basisconfiguratie ingewikkeld is
-- Minder standaard aanwezig in distributies dan GRUB
-
-In deze workshop kiezen we voor **Limine**, omdat hij een moderne en flexibele keuze is voor een systeem met Linux en eventueel Windows.
-
-## Een besturingssysteem (Enkel Linux)
+## Soorten bootloaders
 
 ### Systemd-boot
 
@@ -60,9 +48,21 @@ Systemd-boot is een lichte bootloader voor moderne UEFI-systemen.
 - Niet bedoeld voor BIOS/Legacy
 - Minder geschikt wanneer je veel verschillende systemen automatisch wilt beheren
 
-Kies systemd-boot als je een moderne UEFI-computer hebt en een eenvoudige Linux-installatie wilt. Limine
+Kies systemd-boot als je een moderne UEFI-computer hebt en een eenvoudige Linux-installatie wilt.
 
-## Meerdere besturingssystemen (Meerdere Linux-besturingssystemen)
+### Limine
+
+<img src="../images/bootloaders/Limine_logo.png" alt="Limine" width="100">
+
+Limine is een moderne bootloader met ondersteuning voor UEFI en BIOS/Legacy.
+
+- Duidelijk en modern opstartmenu
+- Geschikt voor Linux en Windows in een dual-boot
+- Veel mogelijkheden zonder dat de basisconfiguratie ingewikkeld is
+- Minder standaard aanwezig in distributies dan GRUB
+
+> [!NOTE]  
+> In deze workshop kiezen we voor **Limine**, omdat hij een moderne en flexibele keuze is voor een systeem met Linux en eventueel Windows.
 
 ### rEFInd
 
@@ -77,8 +77,6 @@ rEFInd toont de beschikbare besturingssystemen als duidelijke opstartopties.
 
 Kies rEFInd als je meerdere UEFI-besturingssystemen naast elkaar gebruikt en een visueel menu belangrijk vindt.
 
-## Oudere computers
-
 ### GNU GRUB
 
 <img src="../images/bootloaders/GRUB_logo.png" alt="GRUB" width="100">
@@ -92,7 +90,7 @@ Kies rEFInd als je meerdere UEFI-besturingssystemen naast elkaar gebruikt en een
 
 Kies GRUB als je vooral compatibiliteit en uitgebreide ondersteuning belangrijk vindt.
 
-## Welke bootloader past bij mij?
+## Beste keuze
 
 ### Windows en Linux (dual-boot)
 
@@ -113,7 +111,13 @@ Kies **systemd-boot** of **Limine**.
 
 Kies **GRUB**, **Limine** of **rEFInd**.
 
-- Deze keuzes maken het eenvoudiger om meerdere systemen of kernels in één opstartmenu te beheren.
+- Deze bootloaders maken het eenvoudiger om meerdere systemen of kernels in één opstartmenu te beheren.
+
+### Oudere hardware
+
+Kies **GRUB**.
+
+- Een zeer lichte bootloader waar oudere computers/hardware niet moeilijk over doen.
 
 ### Aanbevolen keuze
 
