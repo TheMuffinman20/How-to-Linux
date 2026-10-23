@@ -1,4 +1,4 @@
-# Hoe kies ik de juiste desktopomgeving?
+# Hoe kies je de juiste desktopomgeving?
 
 Deze guide helpt je bij het kiezen van een geschikte grafische werkomgeving voor je Linux-installatie. Je desktopomgeving is een compleet pakket met onder andere een vensterbeheerder, taakbalk, bestandsbeheerder, instellingen en standaardprogramma's. De keuze heeft vooral invloed op de bediening, het geheugengebruik en hoeveel je zelf moet instellen.
 
@@ -28,7 +28,7 @@ Een zware desktop gebruikt meer geheugen en grafische middelen dan een lichte de
 - Wil je liever een rustige omgeving of snelheid en prestaties?
 - Een tiling windowmanager kan licht en snel zijn, maar vraagt meestal meer handmatige configuratie.
 
-## Soorten desktopomveningen
+## Soorten desktopomgevingen
 
 ### Cinnamon
 
@@ -45,7 +45,7 @@ Kies Cinnamon als je zonder grote veranderingen van Windows naar Linux wilt over
 
 ### KDE Plasma
 
-<img src="../images/desktops/KDE_Plasma_logo.png" alt="Kde Plasma" width="100">
+<img src="../images/desktops/KDE_Plasma_logo.png" alt="KDE Plasma" width="100">
 
 KDE Plasma biedt een traditionele desktop met veel mogelijkheden om het uiterlijk en gedrag aan te passen.
 
@@ -147,7 +147,7 @@ Kies dwm als je een uiterst lichte, toetsenbordgerichte windowmanager wilt en he
 Kies **Cinnamon** of **KDE Plasma**.
 
 - **Cinnamon** heeft een eenvoudige en vertrouwde indeling, zoals de klassieke Windows-omgeving.
-- **KDE Plasma** biedt meer functies en aanpassingsmogelijkheden aan, zoals de moderne Windows-omgeving.
+- **KDE Plasma** heeft meer functies en aanpassingsmogelijkheden, zoals de moderne Windows-omgeving.
 
 ### Stabiliteit
 
@@ -158,10 +158,10 @@ Kies **GNOME** of **Xfce**.
 
 ### Prestaties
 
-Kies **Hyprland** of **DWM**.
+Kies **Hyprland** of **Dwm**.
 
 - **Hyprland** werkt met Wayland en sneltoetsen of shortcuts. 
-- **DWM** is een zeer minimalistische maar snelle tiling-windowmanager.
+- **Dwm** is een zeer minimalistische maar snelle tiling-windowmanager.
 
 > [!IMPORTANT]
 > Houd er rekening mee dat je na de installatie zelf een taakbalk, applauncher, notificatiesysteem, achtergrondprogramma en vergrendelscherm moet installeren en instellen.
