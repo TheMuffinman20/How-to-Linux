@@ -1,11 +1,11 @@
 # Hoe kies ik de juiste bootloader?
 
-Deze guide helpt je bij het kiezen van een geschikte bootloader voor jouw Linux-installatie. De bootloader start op voordat het besturingssysteem wordt geladen en wordt gebruikt om de keuze van het besturingssysteem aan te geven, bijvoorbeeld tussen Linux en Windows.
+Deze guide helpt je bij het kiezen van een geschikte bootloader voor jouw Linux-installatie. De bootloader start op voordat het besturingssysteem wordt geladen en wordt gebruikt om de keuze van het besturingssysteem aan te geven, bijvoorbeeld tussen Linux en Windows. Je kan dit systeem niet downloaden zoals een programma: je zult je keuze moeten maken tijdens de installatie.
 
-De beste keuze hangt vooral af van je firmware (ingebouwde software van je computer die de hardware aanstuurt en bepaalt hoe het systeem opstart), het aantal besturingssystemen (enkel Linux of Linux naast Windows) en hoeveel je zelf wilt aanpassen.
+De beste keuze hangt vooral af van je firmware (ingebouwde software van je computer die de hardware aanstuurt en bepaalt hoe het systeem opstart) en het aantal besturingssystemen (enkel Linux of Linux naast Windows), maar ook hoeveel je zelf wilt aanpassen.
 
 > [!IMPORTANT]
-> Controleer eerst of je computer in **UEFI-modus** of in de oudere **BIOS/Legacy-modus** opstart. Voor moderne computers en een dual-boot met Windows gebruik je bij voorkeur **UEFI**.
+> Controleer eerst of je computer in **UEFI-modus** of in de oudere **BIOS/Legacy-modus** opstart door dit na te gaan in de **BIOS**. Voor moderne computers en een dual-boot met Windows gebruik je bij voorkeur **UEFI**.
 
 ### 1. Consistentie
 
@@ -128,4 +128,5 @@ Voor deze workshop:
 - Gebruik een **FAT32 EFI-systeempartitie** voor de bootbestanden.
 - Maak altijd een back-up voordat je partities of bootinstellingen wijzigt.
 
-Een verkeerde bootloaderkeuze verwijdert normaal niet automatisch je bestanden, maar een verkeerde partitie of firmware-instelling kan er wel voor zorgen dat een besturingssysteem niet meer opstart. Controleer daarom de schijf, opstartmodus en EFI-partitie zorgvuldig voordat je de installatie bevestigt.
+> [!WARNING]  
+> Een verkeerde bootloaderkeuze verwijdert normaal niet automatisch je bestanden, maar een verkeerde partitie of firmware-instelling kan er wel voor zorgen dat een besturingssysteem niet meer opstart. Controleer daarom de schijf, opstartmodus en EFI-partitie zorgvuldig voordat je de installatie bevestigt.
