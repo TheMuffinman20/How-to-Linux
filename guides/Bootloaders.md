@@ -36,6 +36,22 @@ De bootloader moet passen bij de firmware en de schijfindeling van je computer.
 
 ## Soorten bootloaders
 
+### GNU GRUB
+
+<img src="../images/bootloaders/GRUB_logo.png" alt="GRUB" width="100">
+
+**GRUB** is de meest gebruikte en breedst ondersteunde keuze.
+
+- Geschikt voor dual-boot met Windows
+- Werkt op zowel UEFI als BIOS/Legacy
+- Veel documentatie en hulp beschikbaar
+- Meer configuratie en een complexere standaardinstelling
+
+Kies GRUB als je vooral compatibiliteit en uitgebreide ondersteuning belangrijk vindt.
+
+> [!IMPORTANT]
+> **GRUB** kan niet gebruikt worden indien **EFI**-partities niet op dezelfde disk staan, aangezien ze niet gevonden kunnen worden.
+
 ### Systemd-boot
 
 <img src="../images/bootloaders/Systemd-boot_logo.png" alt="Systemd-boot" width="100">
@@ -76,19 +92,6 @@ rEFInd toont de beschikbare besturingssystemen als duidelijke opstartopties.
 - Kan extra configuratie nodig hebben bij bijzondere installaties
 
 Kies rEFInd als je meerdere UEFI-besturingssystemen naast elkaar gebruikt en een visueel menu belangrijk vindt.
-
-### GNU GRUB
-
-<img src="../images/bootloaders/GRUB_logo.png" alt="GRUB" width="100">
-
-**GRUB** is de meest gebruikte en breedst ondersteunde keuze.
-
-- Geschikt voor dual-boot met Windows
-- Werkt op zowel UEFI als BIOS/Legacy
-- Veel documentatie en hulp beschikbaar
-- Meer configuratie en een complexere standaardinstelling
-
-Kies GRUB als je vooral compatibiliteit en uitgebreide ondersteuning belangrijk vindt.
 
 ## Beste keuze
 
