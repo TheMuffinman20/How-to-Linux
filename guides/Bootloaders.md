@@ -1,8 +1,11 @@
 # Hoe kies ik mijn bootloader?
 
-Deze guide helpt je bij het kiezen van een geschikte bootloader voor jouw Linux-installatie. De bootloader start op voordat het besturingssysteem wordt geladen. Bij een dual-boot geeft hij je de keuze tussen bijvoorbeeld Linux en Windows.
+Deze guide helpt je bij het kiezen van een geschikte bootloader voor jouw Linux-installatie. De bootloader start op voordat het besturingssysteem wordt geladen en wordt gebruikt om de keuze van het besturingssysteem aan te geven, bijvoorbeeld tussen Linux en Windows.
 
-De beste keuze hangt vooral af van je firmware, het aantal besturingssystemen en hoeveel je zelf wilt aanpassen. Controleer eerst of je computer in **UEFI-modus** of in de oudere **BIOS/Legacy-modus** opstart. Voor moderne computers en een dual-boot met Windows gebruik je bij voorkeur UEFI.
+De beste keuze hangt vooral af van je firmware (ingebouwde software van je computer die de hardware aanstuurt en bepaalt hoe het systeem opstart), het aantal besturingssystemen (enkel Linux of Linux naast Windows) en hoeveel je zelf wilt aanpassen.
+
+> [!NOTE]
+> Controleer eerst of je computer in **UEFI-modus** of in de oudere **BIOS/Legacy-modus** opstart. Voor moderne computers en een dual-boot met Windows gebruik je bij voorkeur **UEFI**.
 
 ### 1. Consistentie
 
@@ -28,7 +31,7 @@ De bootloader moet passen bij de firmware en de schijfindeling van je computer.
 - **BIOS/Legacy** gebruikt een andere opstartmethode en is minder geschikt voor een nieuwe dual-bootinstallatie.
 - Installeer Linux en de bootloader in dezelfde modus. Start de Linux-USB dus ook op via de optie die met **UEFI** begint.
 
-## Windows en Linux
+## Twee besturingssystemen (Windows EN Linux)
 
 ### Limine
 
@@ -43,7 +46,7 @@ Limine is een moderne bootloader met ondersteuning voor UEFI en BIOS/Legacy.
 
 In deze workshop kiezen we voor **Limine**, omdat hij een moderne en flexibele keuze is voor een systeem met Linux en eventueel Windows.
 
-## Alleen Linux
+## Een besturingssysteem (Enkel Linux)
 
 ### Systemd-boot
 
@@ -59,7 +62,7 @@ Systemd-boot is een lichte bootloader voor moderne UEFI-systemen.
 
 Kies systemd-boot als je een moderne UEFI-computer hebt en een eenvoudige Linux-installatie wilt. Limine
 
-## Meerdere besturingssystemen
+## Meerdere besturingssystemen (Meerdere Linux-besturingssystemen)
 
 ### rEFInd
 
