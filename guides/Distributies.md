@@ -1,30 +1,30 @@
-# Hoe kies ik mijn distributie?
+# Hoe kies je de juiste distributie?
 
 Deze guide zal je helpen bij het kiezen van een geschikte distro voor jouw computer. Het aanbod is immens, en studenten worden vaak overweldigd door het aantal distributies die er zijn.
 
 Om de keuze in OS te maken, moet je rekening houden met ontwerpcriteria. Helaas is het onmogelijk om aan alles te voldoen. Voor persoonlijk gebruik wil je liever een flexibel systeem, maar een bank zal liever voor een consistent systeem gaan.
 
-### Consistentie
+### 1. Consistentie
 
 De respons van het OS moet voorspelbaar blijven.
 
 - Als ik meerdere keren dezelfde opdracht doe, krijg ik dan steeds hetzelfde resultaat?
 - Crasht mijn systeem (te) vaak?
 
-### Flexibiliteit
+### 2. Flexibiliteit
 
 Nieuwe versies van het OS mogen oude applicaties niet (vaak) breken.
 
 - Wat kan mijn besturingssysteem aan en waarvoor is het bedoeld?
 - Windows kan heel veel aan, maar Raspberry Pi niet.
 
-### Overdraagbaarheid
+### 3. Overdraagbaarheid
 
 Het OS moet op verschillende hardware kunnen draaien.
 
 - Hoe gemakkelijk kan ik (data) wisselen tussen OS?
 
-## Windows-gebruikers
+## Windows-gebruikers en beginners
 
 Voor sommige mensen is de overstap naar Linux te groot, waardoor ze deze niet (volledig willen maken). Dit kan gemakkelijk verholpen worden, aangezien er distributies bestaan zoals Linux Mint en Zorin OS die extreem gebruiksvriendelijk zijn in zowel de installatie als de omgang, waardoor de stijle leercurve door het wisselen naar Linux geen probleem meer is. Deze besturingssystemen focussen zich op de GUI en gebruiken de terminal enkel waar nodig.
 
