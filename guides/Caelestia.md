@@ -116,9 +116,10 @@ Typ hier `Y` of druk op `ENTER`, dit zet je bestaande configuratiemap eerst veil
 :: Repository AUR
     1) Spotify
     2) Discord
-    5) ...
+    3) Nvim
+    4) Btop
+    5) Zen
     6) ...
-    9) Zen
 ```
 
 Hier kies je welke optionele onderdelen mee geïnstalleerd worden, door de nummers in te typen. De keuzes omvatten Spotify, Discord, Zen, ...
