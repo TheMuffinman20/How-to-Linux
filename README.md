@@ -28,6 +28,7 @@ Welkom bij How-to-Linux! Deze repository bevat een uitgebreide gids over het ins
 - [Distributies](guides/Distributies.md)
 - [Desktops](guides/Desktops.md)
 - [Bootloaders](guides/Bootloaders.md)
+- [Caelestia](guides/Caelestia.md)
 
 ## Repository structuur
 
