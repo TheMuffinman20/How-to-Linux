@@ -57,7 +57,7 @@ BalenaEtcher is beschikbaar voor **Windows, macOS en Linux**, wat het een popula
 1. Ga naar de officiële website: https://www.ventoy.net/en/download.html
 2. Download de nieuwste versie voor jouw processortype ***(x86/ARM)**
 
-## Stap 3: USB flashen
+## USB flashen
 
 Plaats eerst de USB-stick die je wil gebruiken in je computer. Controleer of er geen belangrijke bestanden op staan, want tijdens het flashen wordt de volledige inhoud definitief verwijderd. Open daarna het hulpprogramma dat je hebt gedownload.
 
