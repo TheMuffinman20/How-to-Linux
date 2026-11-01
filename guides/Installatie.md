@@ -28,7 +28,7 @@ Volg daarvoor onderstaande stappen:
 3. Controleer de **checksum** van het bestand, als de website er een geeft. Zo weet je zeker dat de download niet beschadigd is.
 
 > [!TIP]
-> Als je nogal besluiteloos bent en niet goed weet waarvoor elke distro dient of hoe ze eruit zien, kun je best de andere workshop [**Distributies**](Distributies.md) eens bekijken.
+> Ben je wat onzeker over deze keuze? Bekijk dan de workshop [**Distributies**](Distributies.md).
 
 ## Hulpprogramma downloaden
 
@@ -140,7 +140,7 @@ Volg deze stappen:
    - 100 GB of meer is aangeraden
 5. Klik op **Verkleinen** (**Shrink**)
 
-Er verschijnt nu een blok **Niet-toegewezen ruimte** (**Unallocated space**). Je hoeft hier geen nieuwe partitie van te maken; Linux zal dit tijdens de installatie zelf correct indelen.
+Er verschijnt nu een blok **Niet-toegewezen ruimte** (**Unallocated space**). Je hoeft hier geen nieuwe partitie van te maken, Linux zal dit tijdens de installatie zelf correct indelen.
 
 ### Single boot
 
@@ -204,8 +204,6 @@ Na het opslaan start de computer op vanaf de USB-stick. Je ziet een opstartmenu 
 Kies de standaardoptie. Je komt dan in een **tijdelijke Linux-omgeving** waarin je de distro kan uitproberen of verdergaan met de definitieve installatie.
 
 # Installatie
-
-## Installer
 
 Meestal start de installer automatisch op in de liveomgeving van je Linux-distributie. Als dat niet zo is, kies je het opstartmenu van Linux **Try or Install Linux** (of de vergelijkbare optie voor jouw distributie).
 
@@ -275,15 +273,15 @@ Sommige installers vragen welke desktopomgeving je wil gebruiken. Dat is wat je 
 
 In deze guide zullen we kiezen voor **KDE Plasma**.
 
-e kan ook kiezen voor **Hyprland**, een op Wayland-gebaseerde windowmanager die een flexibele omgeving en hogere snelheid biedt in vergelijking met sommige andere desktopomgevingen.
+Je kan ook kiezen voor **Hyprland**, een op Wayland-gebaseerde windowmanager die een flexibele omgeving en hogere snelheid biedt in vergelijking met sommige andere desktopomgevingen.
 
 Als je **Hyprland** kiest, zal de desktopomgeving opstarten met **Noctalia Shell**. Wil je toch **Caelestia Shell**? Dan kies je hier voor **No Desktop** en volg je na de laatste stap van deze installatie de guide over [**Caelestia**](Caelestia.md).
 
-> [!TIP]
-> Ben je wat onzeker over deze keuze? Volg dan de guide over [**Desktops**](Desktops.md).
-
 > [!WARNING]
 > Je zal geen desktopomgeving hebben wanneer je inlogt in de computer, enkel een TTY om zelf je omgeving te installeren. 
+
+> [!TIP]
+> Ben je wat onzeker over deze keuze? Volg dan de guide over [**Desktops**](Desktops.md).
 
 ## Pakketten
 
