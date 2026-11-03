@@ -2,6 +2,15 @@
 
 Caelestia is een shell voor Hyprland, gebouwd met Quickshell. Het bevat de taakbalk, launcher, meldingen, instellingen en andere grafische onderdelen. Het werkt op Arch-gebaseerde distributies, waaronder CachyOS.
 
+**Geschatte duur:** 30 tot 60 minuten
+
+**Benodigdheden:**
+- Installatie voltooid met **No Desktop**
+- Ethernetkabel
+
+> [!NOTE]
+> Deze guide gaat ervan uit dat je weet hoe je tekstbestanden kunt wijzigen met **nano**.
+
 ## 1. Setup
 
 - `sudo pacman -Syu`
@@ -9,20 +18,19 @@ Caelestia is een shell voor Hyprland, gebouwd met Quickshell. Het bevat de taakb
 Synchroniseert de pakketlijsten van het apparaat en werkt alle geïnstalleerde pakketten bij.
 
 > [!IMPORTANT]
-> Doe dit altijd eerst!  
-> Verouderde pakketten veroorzaken vaak conflicten of foutmeldingen tijdens een installatie.
+> Doe dit altijd eerst! Verouderde pakketten veroorzaken vaak conflicten of foutmeldingen tijdens een installatie.
 
 - `sudo pacman -S hyprland`
 
 Installeert Hyprland, de Wayland-compositor. Dat is het onderdeel dat vensters tekent en beheert. Caelestia draait hier bovenop.
 
-- `sudo pacman -S --needed base-devel`
+- `sudo pacman -S --needed git base-devel`
 
-Installeert de bouwtools (zoals make, gcc en fakeroot) die nodig zijn om AUR-pakketten zelf te compileren. --needed slaat pakketten over die al geïnstalleerd zijn.
+Installeert de bouwtools (zoals make, gcc en fakeroot) die nodig zijn om AUR-pakketten zelf te compileren. `--needed` slaat pakketten over die al geïnstalleerd zijn.
 
 ## 2. AUR-helper installeren
 
-De AUR (Arch User Repository) bevat pakketten die niet in de officiële repo’s staan. Om die makkelijk te installeren gebruik je een AUR-helper, zoals paru of yay. In deze guide gebruiken we paru.
+De **AUR** (Arch User Repository) bevat pakketten die niet in de officiële repo’s staan. Om die makkelijk te installeren gebruik je een AUR-helper, zoals paru of yay. In deze guide gebruiken we paru.
 
 - `paru --version`
 
@@ -48,7 +56,7 @@ Bouwt het pakket uit de PKGBUILD en installeert het meteen.
 `-s` installeert ontbrekende dependencies automatisch.  
 `-i` installeert het gebouwde pakket daarna.
 
-```
+```bash
 :: There are 2 providers available for Rust:
 :: Repository AUR
     1) Rust
@@ -58,7 +66,7 @@ Bouwt het pakket uit de PKGBUILD en installeert het meteen.
 Kies `Rust (1)` als optie.
 
 > [!NOTE]
-> Als je een pakket installeert met behulp van **paru**, kom je terecht in een **PKGBUILD**-weergave. Dit zal vaker voorkomen tijdens de installatie, dus druk op `q` om deze weergave af te sluiten en ga akkoord om het pakket te installeren.
+> Als je een pakket installeert met behulp van **paru**, kom je terecht in een **PKGBUILD**-weergave. Dit zal vaker voorkomen tijdens de installatie, dus doorloop het bestand en druk op `q` om deze weergave af te sluiten akkoord te gaan om het pakket te installeren.
 
 - `cd`
 
@@ -69,14 +77,13 @@ Gaat terug naar de thuismap `~`.
 Aangezien we geen desktopomgeving, terminal of shell geïnstalleerd hebben moeten ze dit zelf downloaden.
 
 > [!NOTE]
-> Als er meerdere kandidaten zijn, vraagt paru welk pakket je bedoelt.  
-> Meestal kies je de stabiele versies, dat zijn de versies zonder `-git` in de naam.
+> Als er meerdere kandidaten zijn, vraagt paru welk pakket je bedoelt. Meestal kies je de stabiele versies, dat zijn de versies zonder `-git` in de naam.
 
 - `paru -S caelestia-cli`
 
 Installeert de Caelestia-CLI (het beheercommando) uit de AUR.
 
-```
+```bash
 :: There are 4 providers for caelestia-cli:
 :: Repository AUR
     1) caelestia-cli
@@ -91,7 +98,7 @@ Kies hier voor `caelestia-cli (1)`.
 
 Installeert de Caelestia-Shell zelf uit de AUR.
 
-```
+```bash
 :: There are 2 providers for caelestia-shell:
 :: Repository AUR
     1) caelestia-shell
@@ -105,13 +112,13 @@ Kies hier voor `caelestia-shell (1)`.
 Installeert de Caelestia-dots: de configuratiebestanden en bijbehorende software.  
 Tijdens dit commando krijg je meerdere vragen:
 
-```
+```bash
 :: Backup directory config? [Y/n]
 ```
 
 Typ hier `Y` of druk op `ENTER`, dit zet je bestaande configuratiemap eerst veilig opzij zodat er niets verloren gaat.
 
-```
+```bash
 :: Components to enable:
 :: Repository AUR
     1) Spotify
@@ -127,33 +134,33 @@ Hier kies je welke optionele onderdelen mee geïnstalleerd worden, door de numme
 > [!IMPORTANT]
 > Sommige pakketten kunnen mislukken, waardoor de hele installatie kan stoppen. Voer `caelesstia install` opnieuw uit en probeer je keuzes weer door te geven. Lukt dat niet? Kies dan geen enkele component en installeer ze later vanuit de desktopomgeving.
 
-```
-:: There are 4 providers available for libtree-sitter:
+```bash
+:: There are 2 providers available for libtree-sitter:
 :: Repository AUR
     1) cachyos-extra-znver4
     2) cachyos-extra
 ```
 
-Kies hier voor `cachyos-extra-znver4 (1)` als je een AMD Zen 4/5-processor hebt.  
+Kies hier voor `cachyos-extra-znver4 (1)` als je een AMD Zen 4/5-processor hebt (geen Intel of ARM).  
 Als dat niet zo is, kies je `cachyos-extra (2)`.
 
-```
-:: There are 4 providers available for libunibilium:
+```bash
+:: There are 2 providers available for libunibilium:
 :: Repository AUR
     1) cachyos-extra-znver4
     2) cachyos-extra
 ```
 
-Kies hier voor `cachyos-extra-znver4 (1)` als je een AMD Zen 4/5-processor hebt.  
+Kies hier voor `cachyos-extra-znver4 (1)` als je een AMD Zen 4/5-processor hebt (geen Intel of ARM).  
 Als dat niet zo is, kies je `cachyos-extra (2)`.
 
-```
-:: Pipewire-jack and jack2 are in conflict. Remove jack2? [y/N]
+```bash
+:: Pipewire-jack and Jack2 are in conflict. Remove Jack2? [y/N]
 ```
 
-Beide leveren dezelfde functie, dus typ hier `Y` en druk op `ENTER` om `jack2` te verwijderen.
+Beide leveren dezelfde functie, dus typ hier `Y` en druk op `ENTER` om `Jack2` te verwijderen.
 
-```
+```bash
 :: There are 2 providers available for papirus-folders:
 :: Repository AUR
     1) papirus-folders
@@ -165,7 +172,7 @@ Enter a number (default=1):
 
 Hier kies je het kleurenthema voor de Papirus-mapiconen. Kies voor `papirus-folders (1)` als je de standaardkleuren wilt, en `papirus-folders-catppuccin-git (2)` als je standaardkleuren en extra wilt.
 
-```
+```bash
 :: There are 2 providers available for qtengine:
 :: Repository AUR
     1) qtengine
@@ -176,25 +183,24 @@ Enter a number (default=1):
 
 De engine voor het thema en de kleuren van Qt-programma’s. Kies hier voor `qtengine (1)`.
 
-```
+```bash
 :: There are 2 providers available for spotify:
 :: Repository AUR
     1) spotify
     2) spotify-git
-    2) spotify-bin
 
 Enter a number (default=1):
 ```
 
 Kies voor `spotify (1)`, de normale versie van spotify.
 
-```
+```bash
 :: Import PGP key? [Y/n]
 ```
 
 Typ hier `Y` of druk op `ENTER`, zodat de sleutel geïmporteerd wordt en je het pakket kan installeren.
 
-```
+```bash
 :: There are 2 providers available for spicetify:
 :: Repository AUR
     1) spicetify
@@ -225,7 +231,7 @@ Zoekt naar de beschikbare Caelestia-SDDM-thema’s. Kies er daarna één naar ei
 
 Installeert het gekozen thema, volgens de stijl `caelestia-sddm-<themanaam>-git`, dit is dus afhankelijk van jouw keuze. Er kan maar één thema tegelijk geïnstalleerd zijn.
 
-```
+```bash
 :: There are 2 providers available for qt6-multimedia-ffmpeg:
 :: Repository AUR
     1) qt6-multimedia-ffmpeg
@@ -238,15 +244,15 @@ Het thema heeft Qt6 Multimedia nodig, dus ga voor `qt6-multimedia-ffmpeg (1)`.
 
 - `sudo mkdir -p /etc/sddm.conf.d`
 
-Verplaats je naar de map **sddm.conf.d**. Maakt de map aan die nodig is om **SDDM** te configureren. Voer hierna het vorige commando opnieuw uit en voeg de data zelf toe.
+Maakt de map aan die nodig is om **SDDM** te configureren.
 
 - `sudo nano /etc/sddm.conf.d/caelestia.conf`
 
-Opent het configuratiebestand voor **SDDM** dat werd aangemaakt.
+Opent het configuratiebestand voor **SDDM**, of maakt dat bestand aan als dat nog niet gebeurt was.
 
 **Kun je onderstaande data terugvinden?**
 
-```
+```bash
 [Theme]
 Current=caelestia
 ```
@@ -265,7 +271,7 @@ Een laatste systeemupdate, zodat alles pakketten up-to-date zijn.
 Herstart de computer, zodat services zoals **SDDM** en **PipeWire** opnieuw starten. Kies op het inlogscherm de sessie **Hyprland**.
 
 > [!WARNING]
-> De desktopomgeving zal na het inloggen niet laden, en je zal een grijs/zwart scherm te zien krijgen. Druk op `Ctrl+Alt+F3` om **TTY3** te openen.
+> De desktopomgeving zal na het inloggen niet laden, en je zal een grijs/zwart scherm te zien krijgen door een bug. Druk op `Ctrl+Alt+F3` om **TTY3** te openen.
 
 - `sudo nano /etc/xdg/quickshell/caelestia/shell.qml`
 

@@ -4,8 +4,7 @@ In deze workshop volg je een vast stappenplan van instructies, aangevuld met uit
 
 **Geschatte duur:** 90 tot 120 minuten
 
-## Benodigdheden
-
+**Benodigdheden**
 - Een USB-stick van minstens 8 GB
 - Een stabiele internetverbinding (WiFi of Ethernet)
 
