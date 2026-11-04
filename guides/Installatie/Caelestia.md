@@ -49,7 +49,7 @@ Neen - Paru is staat nog niet op je systeem en moet nog geinstalleerd worden met
 
 - `sudo pacman -S paru`
 
-run `paru --version` nu opnieuw, als het nu een versienummer toont, dan is paru succesvol geinstalleerd.
+Installeert paru als helper, zodat we voortaan via paru aan de AUR kunnen om paketten te installeren.
 
 ## 3. Caelestia installeren
 
