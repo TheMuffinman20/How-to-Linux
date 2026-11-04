@@ -39,43 +39,17 @@ De **AUR** (Arch User Repository) bevat pakketten die niet in de officiële repo
 
 - `paru --version`
 
-Controleert of paru al geïnstalleerd is. Op CachyOS is paru meestal al het geval.
+Controleert of paru al geïnstalleerd is. Op CachyOS is dat meestal al het geval.
 
 **Krijg je het versienummer te zien?**
 
 Ja - Paru is al geïnstalleerd, en je kan de volgende stap overslaan.  
-Neen - Paru is nog niet geïnstalleerd, voer het volgende commando uit.
 
-- `git clone https://aur.archlinux.org/paru.git`
+Neen - Paru is staat nog niet op je systeem en moet nog geinstalleerd worden met:
 
-Downloadt de bouwinstructies (PKGBUILD) van paru uit de AUR met Git.
+- `sudo pacman -S paru`
 
-- `cd paru/`
-
-Gaat naar de map met de gedownloade bestanden van paru.
-
-- `makepkg -si`
-
-Bouwt het pakket uit de PKGBUILD en installeert het meteen.
-
-`-s` installeert ontbrekende dependencies automatisch.  
-`-i` installeert het gebouwde pakket daarna.
-
-```bash
-:: There are 2 providers available for Rust:
-:: Repository AUR
-    1) Rust
-    2) Rustup
-```
-
-Kies `Rust (1)` als optie.
-
-> [!NOTE]
-> Als je een pakket installeert met behulp van **paru**, kom je terecht in een **PKGBUILD**-weergave. Dit zal vaker voorkomen tijdens de installatie, dus doorloop het bestand en druk op `q` om deze weergave af te sluiten akkoord te gaan om het pakket te installeren.
-
-- `cd`
-
-Gaat terug naar de thuismap `~`.
+run `paru --version` nu opnieuw, als het nu een versienummer toont, dan is paru succesvol geinstalleerd.
 
 ## 3. Caelestia installeren
 
