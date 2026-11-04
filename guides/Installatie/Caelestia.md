@@ -45,7 +45,7 @@ Controleert of paru al geïnstalleerd is. Op CachyOS is dat meestal al het geval
 
 Ja - Paru is al geïnstalleerd, en je kan de volgende stap overslaan.  
 
-Neen - Paru is staat nog niet op je systeem en moet nog geinstalleerd worden met:
+Neen - Paru is staat nog niet op je systeem en moet nog geïnstalleerd worden met:
 
 - `sudo pacman -S paru`
 
@@ -99,7 +99,6 @@ Typ hier `Y` of druk op `ENTER`, dit zet je bestaande configuratiemap eerst veil
 
 ```bash
 :: Components to enable:
-:: Repository AUR
     1) Spotify
     2) Discord
     3) Nvim
@@ -115,7 +114,6 @@ Hier kies je welke optionele onderdelen mee geïnstalleerd worden, door de numme
 
 ```bash
 :: There are 2 providers available for libtree-sitter:
-:: Repository AUR
     1) cachyos-extra-znver4
     2) cachyos-extra
 ```
@@ -125,7 +123,6 @@ Als dat niet zo is, kies je `cachyos-extra (2)`.
 
 ```bash
 :: There are 2 providers available for libunibilium:
-:: Repository AUR
     1) cachyos-extra-znver4
     2) cachyos-extra
 ```
@@ -141,7 +138,6 @@ Beide leveren dezelfde functie, dus typ hier `Y` en druk op `ENTER` om `Jack2` t
 
 ```bash
 :: There are 2 providers available for papirus-folders:
-:: Repository AUR
     1) papirus-folders
     2) papirus-folders-catppuccin-git
     3) ...
@@ -153,7 +149,6 @@ Hier kies je het kleurenthema voor de Papirus-mapiconen. Kies voor `papirus-fold
 
 ```bash
 :: There are 2 providers available for qtengine:
-:: Repository AUR
     1) qtengine
     2) qtengine-git
 
@@ -164,7 +159,6 @@ De engine voor het thema en de kleuren van Qt-programma’s. Kies hier voor `qte
 
 ```bash
 :: There are 2 providers available for spotify:
-:: Repository AUR
     1) spotify
     2) spotify-git
 
@@ -181,7 +175,6 @@ Typ hier `Y` of druk op `ENTER`, zodat de sleutel geïmporteerd wordt en je het 
 
 ```bash
 :: There are 2 providers available for spicetify:
-:: Repository AUR
     1) spicetify
     2) spicetify-cli
 
