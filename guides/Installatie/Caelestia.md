@@ -237,6 +237,7 @@ Current=caelestia
 ```
 
 Ja - de loginmanager is succesvol geïnstalleerd.  
+
 Neen - de configuratie is nog niet voltooid, voeg de data zelf toe.
 
 ## 5. Afronden
