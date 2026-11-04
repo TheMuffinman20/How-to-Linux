@@ -43,7 +43,7 @@ ________________________________________________________________________________
 
 ### Cinnamon
 
-<img src="../images/distributies/Cinnamon_logo.png" alt="Cinnamon" width="100">
+<img src="../../images/Desktops/Cinnamon_logo.png" alt="Cinnamon" width="100">
 
 Cinnamon gebruikt een vertrouwde indeling met een menu, taakbalk en systeemvak.
 
@@ -56,7 +56,7 @@ Kies Cinnamon als je zonder grote veranderingen van Windows naar Linux wilt over
 
 ### KDE Plasma
 
-<img src="../images/desktops/KDE_Plasma_logo.png" alt="KDE Plasma" width="100">
+<img src="../../images/Desktops/KDE_Plasma_logo.png" alt="KDE Plasma" width="100">
 
 KDE Plasma biedt een traditionele desktop met veel mogelijkheden om het uiterlijk en gedrag aan te passen.
 
@@ -69,7 +69,7 @@ Kies KDE Plasma als je een complete desktop wilt die je uitgebreid kunt aanpasse
 
 ### GNOME
 
-<img src="../images/desktops/Gnome_logo.png" alt="Gnome" width="100">
+<img src="../../images/Desktops/Gnome_logo.png" alt="Gnome" width="100">
 
 GNOME heeft een eenvoudige en rustige interface met een sterke focus op overzicht en workflow.
 
@@ -82,7 +82,7 @@ Kies GNOME als je een moderne omgeving wilt die vooral eenvoudig en overzichteli
 
 ### Xfce
 
-<img src="../images/desktops/Xfce_logo.png" alt="Xfce" width="100">
+<img src="../../images/Desktops/Xfce_logo.png" alt="Xfce" width="100">
 
 Xfce is een lichte en klassieke desktopomgeving.
 
@@ -95,7 +95,7 @@ Kies Xfce als prestaties en stabiliteit belangrijker zijn dan een moderne standa
 
 ### LXQt
 
-<img src="../images/desktops/LXQt_logo.png" alt="LXQt" width="100">
+<img src="../../images/Desktops/LXQt_logo.png" alt="LXQt" width="100">
 
 LXQt is ontworpen om zo weinig mogelijk systeembronnen te gebruiken.
 
@@ -108,7 +108,7 @@ Kies LXQt als je computer weinig geheugen of beperkte grafische prestaties heeft
 
 ### Hyprland
 
-<img src="../images/desktops/Hyprland_logo.png" alt="Hyprland" width="100">
+<img src="../../images/Desktops/Hyprland_logo.png" alt="Hyprland" width="100">
 
 Hyprland is een dynamische windowmanager voor Wayland. Vensters worden automatisch geranschikt en de workflow is sterk op sneltoetsen gericht.
 
@@ -123,7 +123,7 @@ Kies Hyprland omdat je controle, snelheid en maatwerk belangrijk vindt. Je bent 
 
 ### Sway
 
-<img src="../images/desktops/Sway_logo.png" alt="Sway" width="100">
+<img src="../../images/Desktops/Sway_logo.png" alt="Sway" width="100">
 
 Sway is een minimalistische dynamische windowmanager en compositor voor Wayland. De configuratie en sneltoetsen zijn grotendeels compatibel met i3, waardoor bestaande i3-configuraties vaak als uitgangspunt kunnen dienen.
 
@@ -138,7 +138,7 @@ Kies Sway als je een lichte en stabiele Wayland-windowmanager wilt met een i3-ac
 
 ### Dwm
 
-<img src="../images/desktops/Dwm_logo.png" alt="Dwm" width="100">
+<img src="../../images/Desktops/Dwm_logo.png" alt="Dwm" width="100">
 
 Dwm is een minimalistische en dynamische windowmanager voor X11. Vensters worden automatisch gerangschikt en de bediening is voornamelijk op sneltoetsen gericht.
 
