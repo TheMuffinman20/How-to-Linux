@@ -11,6 +11,11 @@ Caelestia is een shell voor Hyprland, gebouwd met Quickshell. Het bevat de taakb
 > [!NOTE]
 > Deze guide gaat ervan uit dat je weet hoe je tekstbestanden kunt wijzigen met **nano**.
 
+<div style="display:flex; gap:1rem; flex-wrap:wrap;">
+  <img src="../../images/Caelestia/Caelestia_Shell.png" alt="Caelestia Shell" style="width:48%; min-width:260px; max-width:550px;">
+  <img src="../../images/Caelestia/Caelestia_Terminal.png" alt="Caelestia Terminal" style="width:48%; min-width:260px; max-width:550px;">
+</div>
+
 ## 1. Setup
 
 - `sudo pacman -Syu`
