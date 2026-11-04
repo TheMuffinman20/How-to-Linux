@@ -24,11 +24,11 @@ Welkom bij How-to-Linux! Deze repository bevat een uitgebreide gids over het ins
 
 ## Documenten
 
-- [Installatie](guides/Installatie.md)
-- [Distributies](guides/Distributies.md)
-- [Desktops](guides/Desktops.md)
-- [Bootloaders](guides/Bootloaders.md)
-- [Caelestia](guides/Caelestia.md)
+- [Installatie](guides/Installatie)
+- [Distributies](guides/Distributies)
+- [Desktops](guides/Desktops)
+- [Bootloaders](guides/Bootloaders)
+- [Caelestia](guides/Installatie/Caelestia.md)
 
 ## Repository structuur
 
