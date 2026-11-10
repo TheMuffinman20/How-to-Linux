@@ -9,7 +9,7 @@
 
 ## Over deze repository
 
-View in [**English**](README-eng.md)
+View in [**English**](README-en.md)
 
 Welkom bij How-to-Linux! Deze repository bevat een uitgebreide gids over het installeren van Linux, zowel als single boot als dual boot met een bestaande besturingssysteem.
 
