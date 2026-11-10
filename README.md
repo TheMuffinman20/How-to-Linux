@@ -9,6 +9,8 @@
 
 ## Over deze repository
 
+View in [**English**](README-eng.md)
+
 Welkom bij How-to-Linux! Deze repository bevat een uitgebreide gids over het installeren van Linux, zowel als single boot als dual boot met een bestaande besturingssysteem.
 
 > [!WARNING]
@@ -24,17 +26,17 @@ Welkom bij How-to-Linux! Deze repository bevat een uitgebreide gids over het ins
 
 ## Documenten
 
-- [Installatie](guides/Installatie)
-- [Distributies](guides/Distributies)
-- [Desktops](guides/Desktops)
-- [Bootloaders](guides/Bootloaders)
-- [Caelestia](guides/Installatie/Caelestia.md)
+- [**Installatie**](guides-nl/Installatie)
+- [**Distributies**](guides-nl/Distributies)
+- [**Desktops**](guides-nl/Desktops)
+- [**Bootloaders**](guides-nl/Bootloaders)
+- [**Caelestia**](guides-nl/Installatie/Caelestia.md)
 
 ## Repository structuur
 
-- `guides/` — handleidingen voor installatie, distributies, desktops en bootloaders
+- `guides-nl/` — handleidingen voor installatie, distributies, desktops en bootloaders (nl)
 - `images/` — afbeeldingen en screenshots
-- `LICENSE.md` — licentieinformatie
+- `LICENSE.md` — licentie-informatie
 
 ## Fouten
 
