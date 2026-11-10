@@ -26,11 +26,11 @@ Welcome to How-to-Linux! This repository contains a comprehensive guide for inst
 
 ## Documents
 
-- [**Installation**](guides-eng/Installation)
-- [**Distributions**](guides-eng/Distributions)
-- [**Desktops**](guides-eng/Desktops)
-- [**Bootloaders**](guides-eng/Bootloaders)
-- [**Caelestia**](guides-eng/Installatie/Caelestia.md)
+- [**Installation**](guides-en/Installation)
+- [**Distributions**](guides-en/Distributions)
+- [**Desktops**](guides-en/Desktops)
+- [**Bootloaders**](guides-en/Bootloaders)
+- [**Caelestia**](guides-en/Installation/Caelestia.md)
 
 ## Repository structure
 
