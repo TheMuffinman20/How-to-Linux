@@ -256,20 +256,6 @@ Je kiest Gentoo wanneer je absolute controle en maximale optimalisatie wilt. Gen
 
 ## Design en pracht
 
-### Deepin
-
-<img src="../../images/Distributies/Deepin_logo.png" alt="Deepin" width="100">
-
-Deepin is een Chinese Linux‑distributie die bekendstaat om zijn zeer moderne, visueel indrukwekkende en gebruiksvriendelijke desktopomgeving: de Deepin Desktop Environment (DDE).
-
-- Interface: Deepin Desktop (macOS‑achtig)
-- Gebruiksgemak: Hoog; visueel intuïtief
-- Prestaties: Medium; visueel zwaar
-- Softwarebeheer: APT, Debian‑basis
-- Doelgroep: Beginners, visuele gebruikers
-
-Je kiest Deepin wanneer je een prachtige, moderne en zeer gebruiksvriendelijke desktop wilt die meteen goed aanvoelt zonder dat je iets hoeft te tweaken.
-
 ### Elementary OS
 
 <img src="../../images/Distributies/ElementaryOS_logo.png" alt="Elementary" width="120">
