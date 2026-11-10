@@ -1,5 +1,9 @@
 # FAQ
 
+### Waaorm kan ik niet verbinden met eduroam?
+
+...
+
 ### Waarom verschijnt mijn USB-stick niet in het opstartmenu?
 
 Controleer of de USB-stick correct is geflasht, of deze is aangesloten en of de BIOS/UEFI het juiste bootmedium ondersteunt. Soms moet je in de BIOS/UEFI handmatig de USB-stick als opstartoptie selecteren.
