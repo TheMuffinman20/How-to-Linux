@@ -2,7 +2,27 @@
 
 ### Waaorm kan ik niet verbinden met eduroam?
 
-...
+Hyprland controleert standaard niet of er een gebruikersnaam ingegeven moet worden voor een netwerk, omdat enkel een wachtwoord meestal volstaat. Hierdoor moet je zelf de connectie opzetten in de terminal en configureren via `nmcli` of `nmtui`, dat is de netwerkmanager.
+
+```bash
+nmcli connection add \
+  type wifi \
+  con-name eduroam \
+  ifname wlan0 \
+  ssid eduroam \
+  wifi-sec.key-mgmt wpa-eap \
+  802-1x.eap peap \
+  802-1x.phase2-auth mschapv2 \
+  802-1x.identity "GEBRUIKERSNAAM@instelling.be" \
+  802-1x.password "WACHTWOORD" \
+  802-1x.system-ca-certs yes
+
+nmcli connection up eduroam
+```
+
+### Waarom kan ik Spicetify niet installeren?
+
+
 
 ### Waarom verschijnt mijn USB-stick niet in het opstartmenu?
 
