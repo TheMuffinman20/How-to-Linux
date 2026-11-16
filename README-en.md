@@ -34,7 +34,7 @@ Welcome to How-to-Linux! This repository contains a comprehensive guide for inst
 
 ## Repository structure
 
-- `guides-nl/` — handleidingen voor installatie, distributies, desktops en bootloaders (nl)
+- `guides-nl/` — guides about installation, distributions, desktops and bootloaders (nl)
 - `guides-en/` — guides about installation, distributions, desktops and bootloaders (en)
 - `raspberry-pi/` — guides about installation and configuration (nl)
 - `images/` — images and screenshots
