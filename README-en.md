@@ -36,7 +36,7 @@ Welcome to How-to-Linux! This repository contains a comprehensive guide for inst
 
 - `guides-nl/` — handleidingen voor installatie, distributies, desktops en bootloaders (nl)
 - `guides-en/` — guides about installation, distributions, desktops and bootloaders (en)
-- `raspberry-pi/` — handleidingen voor installatie en configuratie (nl)
+- `raspberry-pi/` — guides about installation and configuration (nl)
 - `images/` — images and screenshots
 - `LICENSE.md` — license information
 
